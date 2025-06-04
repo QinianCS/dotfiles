@@ -1,0 +1,40 @@
+# Home directories
+.cache/
+.password-store/
+.cargo/registry/
+.npm/
+
+*.tdb
+
+# Git specific
+.git-crypt/
+
+# Python specific
+.pyenv/
+.venv/
+
+# Rust specific
+Cargo.lock
+target/
+
+##
+**/QQ/
+cache/
+pw/
+sync/
+go/
+node_modules/
+WeChat**/
+uv
+.yarn
+.wine
+.var
+.cargo
+.rustup
+.local/~*
+.local/app
+**/Trash
+**/VSCodium
+**/tmp
+**/cache
+**/Cache

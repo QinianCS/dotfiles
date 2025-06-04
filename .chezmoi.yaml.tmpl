@@ -1,0 +1,14 @@
+{{- $choices := list "desktop" "laptop" "server" "termux" -}}
+{{- $hosttype := promptChoiceOnce . "hosttype" "What type of host are you on" $choices -}}
+
+{{- $osid := .chezmoi.os -}}
+{{- if (and (eq .chezmoi.os "linux") (hasKey .chezmoi.osRelease "id")) -}}
+{{-   $osid = printf "%s-%s" .chezmoi.os .chezmoi.osRelease.id -}}
+{{- end -}}
+
+data:
+  hosttype: {{ $hosttype | quote }}
+  osid: {{ $osid | quote }}
+git:
+  # autoCommit: true
+  # autoPush: true

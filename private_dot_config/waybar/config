@@ -1,0 +1,207 @@
+{
+  "layer": "top",
+  // "layer": "overlay",
+  // "position": "top",
+  // "position": "left",
+  "position": "bottom",
+  "modules-left": [
+    //    "niri/workspaces",
+    "niri/window"
+  ],
+  "modules-center": [
+    "custom/music"
+  ],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "custom/gpu-usage",
+    "tray",
+    "pulseaudio",
+    "battery",
+    "clock"
+  ],
+  "hyprland/window": {
+    "format": ":: {title}::{class}",
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "🌎 $1",
+      "(.*) - fish": "> [$1]"
+    },
+    "separate-outputs": true,
+    "max-length": 1000
+  },
+  "niri/workspaces": {
+    "format": "{value}",
+    "current-only": true
+  },
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 14,
+    "icon-theme": "Numix-Circle",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "ignore-list": [
+      "Alacritty"
+    ],
+    "app_ids-mapping": {
+      "firefoxdeveloperedition": "firefox-developer-edition"
+    },
+    "rewrite": {
+      "Firefox Web Browser": "Firefox",
+      "Foot Server": "Terminal"
+    }
+  },
+  "niri/window": {
+    "format": " {title}::{app_id}",
+    "separate-outputs": true,
+    "rewrite": {
+      "(.*) - Mozilla Firefox": "🌎 $1",
+      "(.*) - fish": "> [$1]",
+      "(.*) - kitty": "> [$1]"
+    }
+  },
+  "niri/language": {
+    "format": "{short}"
+  },
+  "pulseaudio": {
+    "tooltip": false,
+    "scroll-step": 5,
+    "format": " {icon} {volume}%",
+    "format-muted": " {icon} {volume}%",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "format-icons": {
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "river/tags": {
+    "num-tags": 6
+  },
+  "network": {
+    "format": " {bandwidthDownOctets} {bandwidthUpOctets} ",
+    "tooltip": false,
+    "format-wifi": "   {essid}",
+    "interval": 10,
+    "format-ethernet": " {bandwidthDownOctets} {bandwidthUpOctets} "
+  },
+  "backlight": {
+    "tooltip": false,
+    "format": " {}%",
+    "interval": 1,
+    "on-scroll-up": "light -A 5",
+    "on-scroll-down": "light -U 5"
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon}  {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "tray": {
+    "spacing": 10,
+    "show-passive-items": true,
+    "icon-size": 12
+  },
+  "clock": {
+    "format": " {:%H:%M %m-%d }",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    }
+  },
+  "cpu": {
+    "interval": 10,
+    "format": " {usage}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 10,
+    "format": " {used}GiB",
+    // "format": " {used}GiB {percentage}% ",
+    "max-length": 20
+  },
+  "custom/gpu-usage": {
+    "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
+    "format": " {}% ",
+    "return-type": "",
+    "interval": 10
+  },
+  "bluetooth": {
+    "format": "  {status}",
+    "format-connected": "  {device_alias}",
+    "format-connected-battery": "  {device_alias} {device_battery_percentage}%",
+    "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+  },
+  "custom/media": {
+    "interval": 30,
+    "format": " {icon} {}",
+    "return-type": "json",
+    "max-length": 20,
+    "format-icons": {
+      "spotify": " ",
+      "default": " "
+    },
+    "escape": true,
+    "on-click": "playerctl play-pause"
+  },
+  "custom/launcher": {
+    "format": "∞",
+    "on-click": "fuzzel",
+    "on-click-right": "killall fuzzel"
+  },
+  "custom/power": {
+    "format": "  ",
+    "on-click": "nwg-bar"
+  },
+  "custom/music": {
+    "format": "{}",
+    // "format": "  {}",
+    "escape": true,
+    "interval": 5,
+    "tooltip": false,
+    // "exec": "playerctl metadata --format='{{ title }}'",
+    "exec": "~/n/scripts/waybar/playerctl_status",
+    "on-click": "playerctl play-pause",
+    "max-length": 200
+  },
+  "user": {
+    "format": "{user}",
+    "interval": 60,
+    "height": 30,
+    "width": 30,
+    "icon": true,
+    "on-click": "fuzzel",
+    "on-click-right": "killall fuzzel"
+  },
+  "custom/notifications": {
+    "format": ""
+  }
+}
