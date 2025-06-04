@@ -1,6 +1,8 @@
 ### My dotfiles with chezmoi
+For your information, here is a screenshot:
 ![image](assets/image.png)
-The main item here is the niri config. There are also less heavily configured setups for other programs. Full list:
+
+The main item of interest here is the niri config and the shell scripts that go with it. There are also a few less configured setups for other programs. List:
 
 - fish
 - fontconfig
