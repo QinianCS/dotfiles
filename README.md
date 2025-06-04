@@ -10,6 +10,7 @@ The main item of interest here is the niri config and the shell scripts that go 
 - keyd
 - mpv
 - niri
+- rime
 - tmux
 - waybar
 
