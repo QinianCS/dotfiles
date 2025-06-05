@@ -48,14 +48,15 @@ name = "markdown"
 # language-servers = ["marksman", "zk", "mpls"]
 # language-servers = ["iwe", "mpls"]
 # comment-tokens = ["-", "+", "*", "- [ ]", ">"]
-language-servers = ["marksman", "markdown-oxide", "mpls"]
+# language-servers = ["marksman", "markdown-oxide", "mpls"]
+language-servers = ["markdown-oxide", "marksman", "mpls"]
 # language-servers = { command = "zk", args = ["zk", "lsp"] }
 formatter = { command = 'prettier', args = [
   "--parser",
   "markdown",
   "--prose-wrap",
-  # "always",       # <always|never|preserve>
-  "never", # <always|never|preserve>
+  "always",       # <always|never|preserve>
+  # "never", # <always|never|preserve>
 ] }
 auto-format = false
 # formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}

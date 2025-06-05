@@ -9,6 +9,7 @@ output "HDMI-A-1" {
 }
 hotkey-overlay {
     skip-at-startup
+    hide-not-bound
 }
 environment {
     ELECTRON_OZONE_PLATFORM_HINT "wayland"
@@ -26,6 +27,8 @@ environment {
     XMODIFIERS "@im=fcitx"
 }
 cursor {
+    // xcursor-theme "BreezeX-RosePineDawn-Linux"
+    // xcursor-theme "BreezeX-RosePine-Linux"
     xcursor-theme "Adwaita"
     xcursor-size 20
 }

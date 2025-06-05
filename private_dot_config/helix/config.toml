@@ -1,5 +1,14 @@
 # theme = "modus_vivendi_tinted"
+# theme = "modus_vivendi"
+# theme = "ao"
+# theme = "flexoki_dark"
+# theme = "spacebones_light"
+# theme = "boo_berry"
+# theme = "jetbrains_dark"
+theme = "nord-night"
+# theme = "flexoki_light"
 # theme = "catppuccin_mocha"
+# theme = "rose_pine"
 [editor]
 idle-timeout = 0           # Auto-completion options should appear instantly
 completion-trigger-len = 1 # 0 would block tabs
@@ -10,7 +19,7 @@ completion-replace = true
 middle-click-paste = false
 true-color = true
 auto-pairs = false
-color-modes = true
+# color-modes = true
 # default-yank-register = "+"
 scrolloff = 40
 preview-completion-insert = true
@@ -127,6 +136,9 @@ C-e = [
   ":insert-output echo \"x1b[?1049h\" > /dev/tty",
   ":open %sh{cat /tmp/unique-file-h21a434}",
   ":redraw",
+  ":toggle mouse",
+  ":toggle mouse",
+  ":config-reload",
 ]
 F = { a = ":toggle file-picker.git-ignore", "." = ":toggle file-picker.hidden", F = "file_picker_in_current_directory" }
 X = ["extend_line_up", "extend_to_line_bounds"]
@@ -182,6 +194,6 @@ C-q = [":qa"]
 "C-pageup" = "goto_previous_buffer"
 "C-pagedown" = "goto_next_buffer"
 "C-c" = ["extend_to_line_bounds", "yank"]
-"C-C" = "toggle_comments"
+# "C-C" = "toggle_comments"
 "A-c" = "toggle_comments"
-"C-/" = "toggle_comments"
+# "C-/" = "toggle_comments"

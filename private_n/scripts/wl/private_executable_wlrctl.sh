@@ -13,7 +13,7 @@ else
 fi
 
 if [ "$1" = "goto" ]; then
-  wlrctl window focus $APP_FOCUS_NAME
+  wlrctl window focus "$APP_FOCUS_NAME"
   if [ $? -eq 1 ]; then
     niri msg action spawn -- $APP_NAME
   else
