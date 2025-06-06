@@ -9,7 +9,7 @@ output "HDMI-A-1" {
 }
 hotkey-overlay {
     skip-at-startup
-    hide-not-bound
+    // hide-not-bound
 }
 environment {
     ELECTRON_OZONE_PLATFORM_HINT "wayland"
@@ -323,7 +323,7 @@ binds {
         spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto dev.zed.Zed-Dev zeditor"
     }
     Mod+t {
-        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto tmux \"footclient -a tmux tmux\""
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto tmux \"~/n/scripts/wl/tmux.sh\""
     }
     Mod+grave {
         spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto helix \"~/n/scripts/wl/helixfoot.sh\""
@@ -429,6 +429,10 @@ binds {
     }
     Mod+F8 allow-when-locked=true {
         spawn "playerctl" "play-pause"
+    }
+    Mod+F9 allow-when-locked=true {
+        // spawn "playerctl" "play-pause"
+        spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"
     }
     XF86AudioRaiseVolume allow-when-locked=true {
         spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.07+"
@@ -710,7 +714,7 @@ binds {
     Mod+Shift+V {
         switch-focus-between-floating-and-tiling
     }
-    Mod+ctrl+shift+W {
+    Mod+W {
         toggle-column-tabbed-display
     }
     // Actions to switch layouts.

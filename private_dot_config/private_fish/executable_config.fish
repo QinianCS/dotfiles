@@ -41,6 +41,7 @@ alias bf="sudo btrfs filesystem"
 
 alias c="chezmoi"
 alias ca="chezmoi add"
+alias cae="chezmoi add --encrypt"
 alias cs="chezmoi status"
 alias cdiff="chezmoi diff"
 alias cr="chezmoi re-add"

@@ -48,8 +48,8 @@ name = "markdown"
 # language-servers = ["marksman", "zk", "mpls"]
 # language-servers = ["iwe", "mpls"]
 # comment-tokens = ["-", "+", "*", "- [ ]", ">"]
-# language-servers = ["marksman", "markdown-oxide", "mpls"]
-language-servers = ["markdown-oxide", "marksman", "mpls"]
+language-servers = ["marksman", "markdown-oxide", "mpls"]
+# language-servers = ["markdown-oxide", "marksman", "mpls"]
 # language-servers = { command = "zk", args = ["zk", "lsp"] }
 formatter = { command = 'prettier', args = [
   "--parser",
@@ -93,6 +93,7 @@ command = "uwu_colors"
 name = "toml"
 formatter = { command = "taplo", args = ["format", "-"] }
 auto-format = true
+# auto-format = false
 
 [[language]]
 name = "yaml"

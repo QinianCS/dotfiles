@@ -17,7 +17,7 @@
 Cargo.lock
 target/
 
-##
+# 
 **/QQ/
 cache/
 pw/
@@ -38,3 +38,25 @@ uv
 **/tmp
 **/cache
 **/Cache
+**/flatpak
+**/zed/node
+**/Telegram*
+**/storage
+**/build
+**/Cache*
+**/.continue
+**/index
+**/google-chrome
+**/*.png
+**/*.jpg
+**/*.age
+**/*.ldb
+**/tests
+**/small/
+**/dictionaries*/
+Downloads/
+.goldendict/content
+**/makepkg
+**/Crash Reports/
+rust
+clones

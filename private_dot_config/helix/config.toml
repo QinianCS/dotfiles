@@ -5,10 +5,8 @@
 # theme = "spacebones_light"
 # theme = "boo_berry"
 # theme = "jetbrains_dark"
-theme = "nord-night"
+# theme = "nord-night"
 # theme = "flexoki_light"
-# theme = "catppuccin_mocha"
-# theme = "rose_pine"
 [editor]
 idle-timeout = 0           # Auto-completion options should appear instantly
 completion-trigger-len = 1 # 0 would block tabs
@@ -21,7 +19,7 @@ true-color = true
 auto-pairs = false
 # color-modes = true
 # default-yank-register = "+"
-scrolloff = 40
+scrolloff = 20
 preview-completion-insert = true
 line-number = "relative"
 mouse = true
@@ -93,6 +91,7 @@ l = ":o ~/.config/helix/languages.toml"
 n = ":o ~/.config/niri/config.kdl"
 r = [":cd ~/rust", ":o ~/rust"]
 h = [":cd ~/", ":o ~/"]
+p = [":cd ~/public", ":o ~/public"]
 [keys.normal.Z]
 Z = ":write-quit-all"
 [keys.normal."'"]
