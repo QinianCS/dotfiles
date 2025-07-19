@@ -1,4 +1,5 @@
 {
+  // "layer": "bottom",
   "layer": "top",
   // "layer": "overlay",
   // "position": "top",
@@ -6,6 +7,7 @@
   "position": "bottom",
   "modules-left": [
     //    "niri/workspaces",
+    // "wlr/taskbar",
     "niri/window"
   ],
   "modules-center": [
@@ -35,7 +37,7 @@
   },
   "wlr/taskbar": {
     "format": "{icon}",
-    "icon-size": 14,
+    "icon-size": 10,
     "icon-theme": "Numix-Circle",
     "tooltip-format": "{title}",
     "on-click": "activate",

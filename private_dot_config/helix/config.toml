@@ -81,6 +81,7 @@ R = ":sh cargo run"
 r = ":config-reload"
 c = [":cd ~/.config", ":o ~/.config"]
 n = [":cd ~/n/", ":o ~/n/"]
+b = [":cd ~/n/book1", ":o ~/n/book1"]
 a = [":cd ~/rust/learn", ":o ~/rust/learn"]
 [keys.normal.backspace.l]
 l = [":cd ~/.local", ":o ~/.local"]
