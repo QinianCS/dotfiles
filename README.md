@@ -15,8 +15,6 @@ The main item of interest here is the niri config and the shell scripts that go 
 - waybar
 
 ### More details
-The overall philosophy here is to be **minimal**, **ergonomic**, and **practical**. The aesthetics is also very minimal.
-
 `keyd` is configured to map system keyboard layout to `colemak-dhk-ansi` with a simple extended layer. The layout can be esaily modified.
 
 `niri` is configured to be comfortable to use with colemak-dhk. As are most other app configs here.
