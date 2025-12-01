@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>3</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="..">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64">/home/t/Applications/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="..">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64">/home/t/Applications/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64">/home/t/Applications/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename="..">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64">/home/t/Applications/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="retroarch">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/</Path>
+                  <Path Filename="assets">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/</Path>
+                  <Path Filename="retroarch">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/RetroArch-Linux-x86_64/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/</Path>
+                  <Path Filename="..">/home/t/Applications/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="RetroArch-Linux-x86_64.AppImage.home">/home/t/Applications/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="..">/home/t/Applications/RetroArch-Linux-x86_64.AppImage.home/.config/</Path>
+                  <Path Filename=".config">/home/t/Applications/RetroArch-Linux-x86_64.AppImage.home/</Path>
+                  <Path Filename="miniconda3-4.9.2.sh">/home/t/Applications/</Path>
+                  <Path Filename="dvd">/home/t/</Path>
+                  <Path Filename="1">/home/t/dvd/</Path>
+                  <Path Filename="Dvd 070825">/home/t/dvd/1/</Path>
+                  <Path Filename="VIDEO_TS">/home/t/dvd/1/Dvd 070825/</Path>
+                  <Path Filename="..">/home/t/dvd/1/Dvd 070825/VIDEO_TS/</Path>
+                  <Path Filename="VIDEO_TS">/home/t/dvd/1/Dvd 070825/</Path>
+                  <Path Filename="Dvd 070825">/home/t/dvd/1/</Path>
+                  <Path Filename="1">/home/t/dvd/</Path>
+                  <Path Filename="Downloads1">/home/t/</Path>
+                  <Path Filename="+">/home/t/Downloads1/</Path>
+                  <Path Filename="archive.txt">/home/t/Downloads1/+/</Path>
+                  <Path Filename="+">/home/t/Downloads1/</Path>
+                  <Path Filename="aria2">/home/t/Downloads1/+/</Path>
+                  <Path Filename="libgen">/home/t/Downloads1/</Path>
+                  <Path Filename="Geshe Michael Roach, Lama Christie McNally - The Diamond Cutter_ The Buddha on Strategies for Managing Your Business and Your Life (1).epub">/home/t/Downloads1/libgen/</Path>
+                  <Path Filename="..">/home/t/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/</LockPath>
+          <Title>t</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="mega1-mega2.pdf">/home/t/Downloads/small/马恩列pdf/马恩文集选集/</Path>
+                  <Path Filename="马恩文集选集">/home/t/Downloads/small/马恩列pdf/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/马恩列pdf/马恩文集选集/</Path>
+                  <Path Filename="马恩文集选集">/home/t/Downloads/small/马恩列pdf/</Path>
+                  <Path Filename="_pc">/home/t/Downloads/small/</Path>
+                  <Path Filename="_archive">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="马恩列pdf">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/_archive/马恩列pdf/</Path>
+                  <Path Filename="马恩列pdf">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/_archive/马恩列pdf/</Path>
+                  <Path Filename="马恩pdf">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="by domain">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/by domain/</Path>
+                  <Path Filename="新中国史">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="cpc">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="中国共产党历史第二卷（1949-1978）下册 (中共中央党史研究室著) (Z-Library).pdf">/home/t/Downloads/small/_pc/新中国史/cpc/</Path>
+                  <Path Filename="cpc">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="_archive">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="_archive">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="stockpile">/home/t/Downloads/small/</Path>
+                  <Path Filename="mao">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="文稿">/home/t/Downloads/small/stockpile/mao/</Path>
+                  <Path Filename="《建国以来毛泽东文稿》 第01册 （1949年9月-1950年2月）.pdf">/home/t/Downloads/small/stockpile/mao/文稿/</Path>
+                  <Path Filename="文稿">/home/t/Downloads/small/stockpile/mao/</Path>
+                  <Path Filename="mao">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="_pc">/home/t/Downloads/small/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="stockpile">/home/t/Downloads/small/</Path>
+                  <Path Filename="cpc">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="xi">/home/t/Downloads/small/stockpile/cpc/</Path>
+                  <Path Filename="cpc">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="_pc">/home/t/Downloads/small/</Path>
+                  <Path Filename="新中国史">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="cpc">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="《中国共产党历史》第三卷上册 (中央党史和文献研究院) (Z-Library).pdf">/home/t/Downloads/small/_pc/新中国史/cpc/</Path>
+                  <Path Filename="1">/home/t/Downloads/</Path>
+                  <Path Filename="FC2-PPV-4667978">/home/t/Downloads/1/</Path>
+                  <Path Filename="..">/home/t/Downloads/1/FC2-PPV-4667978/</Path>
+                  <Path Filename="FC2-PPV-4669697">/home/t/Downloads/1/</Path>
+                  <Path Filename="..">/home/t/Downloads/1/FC2-PPV-4669697/</Path>
+                  <Path Filename="FC2-PPV-4669697">/home/t/Downloads/1/</Path>
+                  <Path Filename="..">/home/t/Downloads/1/FC2-PPV-4669697/</Path>
+                  <Path Filename="FC2-PPV-4669697">/home/t/Downloads/1/</Path>
+                  <Path Filename="xps">/home/t/Downloads/</Path>
+                  <Path Filename="FC2-PPV-4687295">/home/t/Downloads/xps/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4687295.mp4">/home/t/Downloads/xps/FC2-PPV-4687295/</Path>
+                  <Path Filename="START-293">/home/t/Downloads/xps/</Path>
+                  <Path Filename="hhd800.com@START-293.mp4">/home/t/Downloads/xps/START-293/</Path>
+                  <Path Filename="">/home/t/Downloads/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/Downloads/</LockPath>
+          <Title>Downloads</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="transferable">/home/t/.local/share/yuzu/shader/opengl/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/shader/opengl/transferable/</Path>
+                  <Path Filename="transferable">/home/t/.local/share/yuzu/shader/opengl/</Path>
+                  <Path Filename="opengl">/home/t/.local/share/yuzu/shader/</Path>
+                  <Path Filename="dump">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/dump/</Path>
+                  <Path Filename="load">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/load/</Path>
+                  <Path Filename="log">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/log/</Path>
+                  <Path Filename="nand">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand/</Path>
+                  <Path Filename="yuzu_log.txt">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="yuzu">/home/t/.local/share/</Path>
+                  <Path Filename="1">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/1/</Path>
+                  <Path Filename="log">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/log/</Path>
+                  <Path Filename="1">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="yuzu_log.txt">/home/t/.local/share/yuzu/1/</Path>
+                  <Path Filename="load">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/load/</Path>
+                  <Path Filename="1">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="yuzu">/home/t/.local/share/</Path>
+                  <Path Filename="share">/home/t/.local/</Path>
+                  <Path Filename="yuzu">/home/t/.local/share/</Path>
+                  <Path Filename="log">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="yuzu_log.txt">/home/t/.local/share/yuzu/log/</Path>
+                  <Path Filename="yuzu">/home/t/.local/share/</Path>
+                  <Path Filename="data000.sav">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="gvfs-metadata">/home/t/.local/share/</Path>
+                  <Path Filename="share">/home/t/.local/</Path>
+                  <Path Filename=".config">/home/t/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                  <Path Filename="duckstation">/home/t/.local/share/</Path>
+                  <Path Filename="bios">/home/t/.local/share/duckstation/</Path>
+                  <Path Filename="..">/home/t/.local/share/duckstation/bios/</Path>
+                  <Path Filename="citra-emu">/home/t/.local/share/</Path>
+                  <Path Filename="states">/home/t/.local/share/citra-emu/</Path>
+                  <Path Filename="..">/home/t/.local/share/citra-emu/states/</Path>
+                  <Path Filename="shaders">/home/t/.local/share/citra-emu/</Path>
+                  <Path Filename="opengl">/home/t/.local/share/citra-emu/shaders/</Path>
+                  <Path Filename="precompiled">/home/t/.local/share/citra-emu/shaders/opengl/</Path>
+                  <Path Filename="..">/home/t/.local/share/citra-emu/shaders/opengl/precompiled/</Path>
+                  <Path Filename="transferable">/home/t/.local/share/citra-emu/shaders/opengl/</Path>
+                  <Path Filename="..">/home/t/.local/share/citra-emu/shaders/opengl/transferable/</Path>
+                  <Path Filename="transferable">/home/t/.local/share/citra-emu/shaders/opengl/</Path>
+                  <Path Filename="opengl">/home/t/.local/share/citra-emu/shaders/</Path>
+                  <Path Filename="shaders">/home/t/.local/share/citra-emu/</Path>
+                  <Path Filename="..">/home/t/.local/share/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/.local/share/</LockPath>
+          <Title>share</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/t/Downloads/small/kobo/capital/</Path>
+                  <Path Filename="shakespeare">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/kobo/shakespeare/</Path>
+                  <Path Filename="yyib">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/kobo/yyib/</Path>
+                  <Path Filename="yyib">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="_pc">/home/t/Downloads/small/</Path>
+                  <Path Filename="会评校注金瓶梅（修订本）">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="pdf">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/pdf/</Path>
+                  <Path Filename="会评校注金瓶梅（典藏版）">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/会评校注金瓶梅（典藏版）/</Path>
+                  <Path Filename="金瓶梅的祖宗">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/金瓶梅的祖宗/</Path>
+                  <Path Filename="金瓶梅的祖宗">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/金瓶梅的祖宗/</Path>
+                  <Path Filename="金瓶梅的祖宗">/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/</Path>
+                  <Path Filename="古文小说">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/古文小说/</Path>
+                  <Path Filename="古文小说">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="三国演义汇评汇校本_3(1).1版_240916">/home/t/Downloads/small/_pc/古文小说/</Path>
+                  <Path Filename="中国古代史">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="司马光">/home/t/Downloads/small/_pc/中国古代史/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/中国古代史/司马光/</Path>
+                  <Path Filename="司马光">/home/t/Downloads/small/_pc/中国古代史/</Path>
+                  <Path Filename="古文小说">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/古文小说/</Path>
+                  <Path Filename="中国古代史">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="司马光">/home/t/Downloads/small/_pc/中国古代史/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/中国古代史/司马光/</Path>
+                  <Path Filename="司马光">/home/t/Downloads/small/_pc/中国古代史/</Path>
+                  <Path Filename="中国古代史">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="stockpile">/home/t/Downloads/small/</Path>
+                  <Path Filename="english_translations">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/stockpile/english_translations/</Path>
+                  <Path Filename="novel">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/stockpile/novel/</Path>
+                  <Path Filename="novel">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="Programming Rust Fast, Safe Systems Development ( etc.) (Z-Library).epub">/home/t/Downloads/small/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                  <Path Filename="j">/data/j/</Path>
+                  <Path Filename="musica classica extracted">/data/j/j/</Path>
+                  <Path Filename="Gabrielli, Domenico (1651-1690)">/data/j/j/musica classica extracted/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                  <Path Filename=".config">/home/t/</Path>
+                  <Path Filename="t">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                  <Path Filename="state.rs">/home/t/rust/niri/niri-ipc/src/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/.config/</LockPath>
+          <Title>.config</Title>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/古文小说/stockpile/</Path>
+                  <Path Filename="三国演义汇评汇校本_3(1).1版_240916">/home/t/Downloads/small/_pc/古文小说/</Path>
+                  <Path Filename="古文小说">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="stockpile">/home/t/Downloads/small/</Path>
+                  <Path Filename="Crime and Punishment (Vintage C - Fyodor Dostoevsky.epub">/home/t/Downloads/small/stockpile/</Path>
+                  <Path Filename="果麦">/home/t/Downloads/small/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/果麦/</Path>
+                  <Path Filename="马恩列">/home/t/Downloads/small/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/马恩列/</Path>
+                  <Path Filename="_pc">/home/t/Downloads/small/</Path>
+                  <Path Filename="_archive">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="马恩pdf">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/_archive/马恩pdf/</Path>
+                  <Path Filename="马恩列epub">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/_archive/马恩列epub/</Path>
+                  <Path Filename="马恩列epub">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/古漢語/</Path>
+                  <Path Filename="kobo">/home/t/Downloads/small/</Path>
+                  <Path Filename="capital">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/kobo/capital/</Path>
+                  <Path Filename="rust">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/kobo/rust/</Path>
+                  <Path Filename="shakespeare">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/kobo/shakespeare/</Path>
+                  <Path Filename="yyib">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/kobo/yyib/</Path>
+                  <Path Filename="yyib">/home/t/Downloads/small/kobo/</Path>
+                  <Path Filename="_pc">/home/t/Downloads/small/</Path>
+                  <Path Filename="古漢語">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/古漢語/</Path>
+                  <Path Filename="mao">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/mao/</Path>
+                  <Path Filename="_archive">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="中国古代史">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="新中国史">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="新中国史">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="cpc">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/新中国史/cpc/</Path>
+                  <Path Filename="cpc">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/新中国史/cpc/</Path>
+                  <Path Filename="newchina">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/新中国史/newchina/</Path>
+                  <Path Filename="newchina">/home/t/Downloads/small/_pc/新中国史/</Path>
+                  <Path Filename="by domain">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/by domain/</Path>
+                  <Path Filename="_archive">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/_pc/_archive/</Path>
+                  <Path Filename="_archive">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="..">/home/t/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/</LockPath>
+          <Title>t</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="NA">/home/t/Downloads/aria2/NA/</Path>
+                  <Path Filename="NA">/home/t/Downloads/aria2/</Path>
+                  <Path Filename="NA">/home/t/Downloads/aria2/NA/</Path>
+                  <Path Filename="..">/home/t/Downloads/aria2/NA/NA/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                  <Path Filename="..">/home/t/.local/share/</Path>
+                  <Path Filename="..">/home/t/Downloads/small/</Path>
+                  <Path Filename="..">/home/t/.local/share/</Path>
+                  <Path Filename="_pc">/home/t/Downloads/small/</Path>
+                  <Path Filename="孟子新注新譯 -- 杨逢彬著 -- 2017_12 -- 14428419 -- c538139563f05a2ff51365db48701dda -- Anna’s Archive.pdf">/home/t/Downloads/small/_pc/</Path>
+                  <Path Filename="xps">/home/t/Downloads/</Path>
+                  <Path Filename="FC2-PPV-4686457">/home/t/Downloads/xps/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4686457.mp4">/home/t/Downloads/xps/FC2-PPV-4686457/</Path>
+                  <Path Filename="FC2-PPV-4687295">/home/t/Downloads/xps/</Path>
+                  <Path Filename="..">/home/t/Downloads/xps/FC2-PPV-4687295/</Path>
+                  <Path Filename="FC2-PPV-4687295">/home/t/Downloads/xps/</Path>
+                  <Path Filename="..">/home/t/Downloads/xps/FC2-PPV-4687295/</Path>
+                  <Path Filename="FC2-PPV-4687295">/home/t/Downloads/xps/</Path>
+                  <Path Filename="small">/home/t/Downloads/</Path>
+                  <Path Filename="downloads">/data/j/</Path>
+                  <Path Filename="FC2-PPV-4466491">/data/j/downloads/</Path>
+                  <Path Filename="offkab@sukebei.txt">/data/j/downloads/FC2-PPV-4466491/</Path>
+                  <Path Filename="FC2-PPV-4490298">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4490298.mp4">/data/j/downloads/FC2-PPV-4490298/</Path>
+                  <Path Filename="..">/home/t/Downloads/</Path>
+                  <Path Filename="downloads">/data/j/</Path>
+                  <Path Filename="FC2-PPV-4677377">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4677377.mp4">/data/j/downloads/FC2-PPV-4677377/</Path>
+                  <Path Filename="FC2-PPV-4680550">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4680550.mp4">/data/j/downloads/FC2-PPV-4680550/</Path>
+                  <Path Filename="FC2-PPV-4680648">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4680648_1.mp4">/data/j/downloads/FC2-PPV-4680648/</Path>
+                  <Path Filename="FC2-PPV-4680648">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4680648_1.mp4">/data/j/downloads/FC2-PPV-4680648/</Path>
+                  <Path Filename="FC2-PPV-4680550">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4680550.mp4">/data/j/downloads/FC2-PPV-4680550/</Path>
+                  <Path Filename="FC2-PPV-4680648">/data/j/downloads/</Path>
+                  <Path Filename="..">/data/j/downloads/FC2-PPV-4680648/</Path>
+                  <Path Filename="FC2-PPV-4680550">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4680550.mp4">/data/j/downloads/FC2-PPV-4680550/</Path>
+                  <Path Filename="FC2-PPV-4677377">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4677377.mp4">/data/j/downloads/FC2-PPV-4677377/</Path>
+                  <Path Filename="FC2-PPV-4490298">/data/j/downloads/</Path>
+                  <Path Filename="hhd800.com@FC2-PPV-4490298.mp4">/data/j/downloads/FC2-PPV-4490298/</Path>
+                  <Path Filename="FC2-PPV-4490298">/data/j/downloads/</Path>
+                  <Path Filename="j">/data/j/</Path>
+                  <Path Filename="cold">/data/j/j/</Path>
+                  <Path Filename="..">/data/j/j/cold/</Path>
+                  <Path Filename="cold">/data/j/j/</Path>
+                  <Path Filename="..">/home/t/Downloads/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/Downloads/</LockPath>
+          <Title>Downloads</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename=".aria2">/home/t/</Path>
+                  <Path Filename="aria2.conf">/home/t/.aria2/</Path>
+                  <Path Filename=".aria2">/home/t/</Path>
+                  <Path Filename="yuzu">/home/t/.local/share/</Path>
+                  <Path Filename="nand1">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand1/</Path>
+                  <Path Filename="nand">/home/t/.local/share/yuzu/</Path>
+                  <Path Filename="system">/home/t/.local/share/yuzu/nand/</Path>
+                  <Path Filename="Contents">/home/t/.local/share/yuzu/nand/system/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="sysdata">/home/t/.local/share/yuzu/nand/system/Contents/registered/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand/system/Contents/registered/sysdata/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand/system/Contents/registered/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="Contents">/home/t/.local/share/yuzu/nand/system/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand/system/Contents/registered/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="share">/home/t/.local/</Path>
+                  <Path Filename="citra-emu">/home/t/.local/share/</Path>
+                  <Path Filename="sysdata">/home/t/.local/share/citra-emu/</Path>
+                  <Path Filename="..">/home/t/.local/share/citra-emu/sysdata/</Path>
+                  <Path Filename="sysdata">/home/t/.local/share/citra-emu/</Path>
+                  <Path Filename="aes_keys.txt">/home/t/.local/share/citra-emu/sysdata/</Path>
+                  <Path Filename=".cemu">/home/t/</Path>
+                  <Path Filename="sharedFonts">/home/t/.cemu/</Path>
+                  <Path Filename="..">/home/t/.cemu/sharedFonts/</Path>
+                  <Path Filename="mlc01">/home/t/.cemu/</Path>
+                  <Path Filename="sys">/home/t/.cemu/mlc01/</Path>
+                  <Path Filename="..">/home/t/.cemu/mlc01/sys/</Path>
+                  <Path Filename="usr">/home/t/.cemu/mlc01/</Path>
+                  <Path Filename="save">/home/t/.cemu/mlc01/usr/</Path>
+                  <Path Filename="..">/home/t/.cemu/mlc01/usr/save/</Path>
+                  <Path Filename="save">/home/t/.cemu/mlc01/usr/</Path>
+                  <Path Filename="usr">/home/t/.cemu/mlc01/</Path>
+                  <Path Filename="mlc01">/home/t/.cemu/</Path>
+                  <Path Filename=".cemu">/home/t/</Path>
+                  <Path Filename="..">/home/t/.cemu/</Path>
+                  <Path Filename=".config">/home/t/</Path>
+                  <Path Filename="melonDS">/home/t/.config/</Path>
+                  <Path Filename="..">/home/t/.config/melonDS/</Path>
+                  <Path Filename="mednaffe">/home/t/.config/</Path>
+                  <Path Filename="">/home/t/</Path>
+                  <Path Filename="..">/home/t/.local/share/duckstation/bios/</Path>
+                  <Path Filename="bios">/home/t/.local/share/duckstation/</Path>
+                  <Path Filename="Play Data Files">/home/t/.local/share/</Path>
+                  <Path Filename="share">/home/t/.local/</Path>
+                  <Path Filename=".config">/home/t/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                  <Path Filename="..">/home/t/.local/share/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/.local/share/</LockPath>
+          <Title>share</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Contents">/home/t/.local/share/yuzu/nand/system/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="sysdata">/home/t/.local/share/yuzu/nand/system/Contents/registered/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand/system/Contents/registered/sysdata/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand/system/Contents/registered/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="Contents">/home/t/.local/share/yuzu/nand/system/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="..">/home/t/.local/share/yuzu/nand/system/Contents/registered/</Path>
+                  <Path Filename="registered">/home/t/.local/share/yuzu/nand/system/Contents/</Path>
+                  <Path Filename="share">/home/t/.local/</Path>
+                  <Path Filename="citra-emu">/home/t/.local/share/</Path>
+                  <Path Filename="sysdata">/home/t/.local/share/citra-emu/</Path>
+                  <Path Filename="..">/home/t/.local/share/citra-emu/sysdata/</Path>
+                  <Path Filename="sysdata">/home/t/.local/share/citra-emu/</Path>
+                  <Path Filename="aes_keys.txt">/home/t/.local/share/citra-emu/sysdata/</Path>
+                  <Path Filename=".cemu">/home/t/</Path>
+                  <Path Filename="sharedFonts">/home/t/.cemu/</Path>
+                  <Path Filename="..">/home/t/.cemu/sharedFonts/</Path>
+                  <Path Filename="mlc01">/home/t/.cemu/</Path>
+                  <Path Filename="sys">/home/t/.cemu/mlc01/</Path>
+                  <Path Filename="..">/home/t/.cemu/mlc01/sys/</Path>
+                  <Path Filename="usr">/home/t/.cemu/mlc01/</Path>
+                  <Path Filename="save">/home/t/.cemu/mlc01/usr/</Path>
+                  <Path Filename="..">/home/t/.cemu/mlc01/usr/save/</Path>
+                  <Path Filename="save">/home/t/.cemu/mlc01/usr/</Path>
+                  <Path Filename="usr">/home/t/.cemu/mlc01/</Path>
+                  <Path Filename="mlc01">/home/t/.cemu/</Path>
+                  <Path Filename=".cemu">/home/t/</Path>
+                  <Path Filename="..">/home/t/.cemu/</Path>
+                  <Path Filename=".config">/home/t/</Path>
+                  <Path Filename="melonDS">/home/t/.config/</Path>
+                  <Path Filename="..">/home/t/.config/melonDS/</Path>
+                  <Path Filename="mednaffe">/home/t/.config/</Path>
+                  <Path Filename="">/home/t/</Path>
+                  <Path Filename="..">/home/t/.local/share/duckstation/bios/</Path>
+                  <Path Filename="bios">/home/t/.local/share/duckstation/</Path>
+                  <Path Filename="Play Data Files">/home/t/.local/share/</Path>
+                  <Path Filename="share">/home/t/.local/</Path>
+                  <Path Filename=".config">/home/t/</Path>
+                  <Path Filename="Recoll.org">/home/t/.config/</Path>
+                  <Path Filename="..">/home/t/.config/Recoll.org/</Path>
+                  <Path Filename="retroarch">/home/t/.config/</Path>
+                  <Path Filename="system">/home/t/.config/retroarch/</Path>
+                  <Path Filename="Beetle PSX HW">/home/t/.config/retroarch/system/</Path>
+                  <Path Filename="..">/home/t/.config/retroarch/system/Beetle PSX HW/</Path>
+                  <Path Filename="scph5500.bin">/home/t/.config/retroarch/system/</Path>
+                  <Path Filename="citra-emu">/home/t/.config/</Path>
+                  <Path Filename="..">/home/t/.config/citra-emu/</Path>
+                  <Path Filename="..">/home/t/.config/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/t/.config/</LockPath>
+          <Title>.config</Title>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
+</doublecmd>

@@ -1,0 +1,186 @@
+# python
+[[language]]
+name = "python"
+language-servers = ["pyright", "ruff", "pylyzer"]
+[language-server.pyright.config.python.analysis]
+typeCheckingMode = "basic"
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+[language-server.pylyzer]
+command = "pylyzer"
+args = ["--server"]
+# rust
+[language-server.scls]
+command = "simple-completion-language-server"
+
+[language-server.scls.config]
+max_completion_items = 100           # set max completion results len for each group: words, snippets, unicode-input
+feature_words = true                 # enable completion by word
+feature_snippets = true              # enable snippets
+snippets_first = true                # completions will return before snippets by default
+snippets_inline_by_word_tail = false # suggest snippets by WORD tail, for example text `xsq|` become `x^2|` when snippet `sq` has body `^2`
+feature_unicode_input = false        # enable "unicode input"
+feature_paths = false                # enable path completion
+feature_citations = false            # enable citation completion (only on `citation` feature enabled)
+[[language]]
+name = "rust"
+language-servers = ["scls", "rust-analyzer"]
+
+[[language]]
+name = "git-commit"
+language-servers = ["scls"]
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+[language-server.rust-analyzer.config.cargo]
+features = "all"
+# [[language]]
+# name = "rust"
+# formatter = { command = "bash", args = ["-c", "rustfmt | dx fmt -f -"] }
+# md
+[language-server.zk]
+command = "zk"
+args = ["lsp"]
+[[language]]
+name = "markdown"
+# formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
+# language-servers = ["zk", "mpls"]
+# language-servers = ["marksman", "zk", "mpls"]
+# language-servers = ["iwe", "mpls"]
+# comment-tokens = ["-", "+", "*", "- [ ]", ">"]
+language-servers = ["marksman", "markdown-oxide", "mpls"]
+# language-servers = ["markdown-oxide", "marksman", "mpls"]
+# language-servers = { command = "zk", args = ["zk", "lsp"] }
+formatter = { command = 'prettier', args = [
+  "--parser",
+  "markdown",
+  "--prose-wrap",
+  "always",       # <always|never|preserve>
+  # "never", # <always|never|preserve>
+] }
+auto-format = false
+# formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
+[language-server.iwe]
+command = "iwes"
+
+# [[language]]
+# name = "markdown"
+# language-servers = [ "iwe" ] # you might want more LSPs in here
+# auto-format = true # optional, enable format-on-save
+
+[language-server.mpls]
+command = "mpls"
+args = [
+  "--no-auto",
+  "--dark-mode",
+  "--enable-emoji",
+  "--enable-wikilinks",
+  "--browser",
+  "librewolf",
+  "--port",
+  "8087",
+]
+# An example args entry showing how to specify flags with values:
+# args = ["--port", "8080", "--browser", "google-chrome"]
+## md end
+
+[language-server.uwu_colors]
+command = "uwu_colors"
+
+# toml
+
+[[language]]
+name = "toml"
+formatter = { command = "taplo", args = ["format", "-"] }
+auto-format = true
+# auto-format = false
+
+[[language]]
+name = "yaml"
+formatter = { command = "prettier", args = ["--parser", "yaml"] }
+auto-format = true
+# kdl
+[[language]]
+name = "kdl"
+formatter = { command = "kdlfmt", args = ["format", "-"] }
+language-servers = ["kdl-lsp"]
+[language-server.kdl-lsp]
+command = "kdl-lsp"
+# js ts
+
+[[language]]
+name = "javascript"
+language-servers = [
+  "typescript-language-server",    # optional
+  "vscode-eslint-language-server",
+]
+[[language]]
+name = "jsx"
+language-servers = [
+  "typescript-language-server",
+  "vscode-eslint-language-server",
+]
+
+[[language]]
+name = "typescript"
+language-servers = [
+  "typescript-language-server",
+  "vscode-eslint-language-server",
+]
+[[language]]
+name = "tsx"
+language-servers = [
+  "typescript-language-server",
+  "vscode-eslint-language-server",
+]
+[language-server]
+biome = { command = "biome", args = ["lsp-proxy"] }
+
+[[language]]
+name = "javascript"
+language-servers = [
+  { name = "typescript-language-server", except-features = [
+    "format",
+  ] },
+  "biome",
+]
+auto-format = true
+
+[[language]]
+name = "typescript"
+language-servers = [
+  { name = "typescript-language-server", except-features = [
+    "format",
+  ] },
+  "biome",
+]
+auto-format = true
+
+[[language]]
+name = "tsx"
+auto-format = true
+language-servers = [
+  { name = "typescript-language-server", except-features = [
+    "format",
+  ] },
+  "biome",
+]
+
+[[language]]
+name = "jsx"
+auto-format = true
+language-servers = [
+  { name = "typescript-language-server", except-features = [
+    "format",
+  ] },
+  "biome",
+]
+
+[[language]]
+name = "json"
+language-servers = [
+  { name = "vscode-json-language-server", except-features = [
+    "format",
+  ] },
+  "biome",
+]

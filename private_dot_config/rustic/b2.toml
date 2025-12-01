@@ -1,0 +1,17 @@
+[repository]
+repository = "rclone:b2:codeberg"
+password-file = "/home/t/o/passwd.txt"
+
+# [forget]
+# keep-daily = 8
+# keep-weekly = 5
+# keep-monthly = 3
+# keep-yearly = 1
+
+[backup]
+label = "home"
+glob-files = ["/home/t/.config/rustic/exclude.glob"]
+one-file-system = true
+skip-identical-parent = true
+no-require-git = true 
+git-ignore = true

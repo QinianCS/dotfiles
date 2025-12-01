@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WinRAR help
+Exec=env WINEPREFIX="/home/t/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\WinRAR\\\\WinRAR\\ help.lnk
+Type=Application
+StartupNotify=true
+Comment=Process RAR, ZIP and other archive formats
+Path=/home/t/.wine/dosdevices/c:/users/t/Desktop
+Icon=0A01_WinRAR.0
+StartupWMClass=winrar.chm

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=What is new in the latest version
+Exec=env WINEPREFIX="/home/t/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\WinRAR\\\\What\\ is\\ new\\ in\\ the\\ latest\\ version.lnk
+Type=Application
+StartupNotify=true
+Comment=Process RAR, ZIP and other archive formats
+Path=/home/t/.wine/dosdevices/c:/users/t/Desktop
+Icon=31DB_WhatsNew.0
+StartupWMClass=whatsnew.txt

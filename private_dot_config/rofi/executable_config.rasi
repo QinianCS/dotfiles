@@ -1,0 +1,17 @@
+@import "catppuccin-default"
+
+/* ---- Configuration ---- */
+configuration {
+    modi:                       "drun,window,run";
+    show-icons:                 true;
+	drun-display-format:        "{name}, {comment}";
+  tokenize: false;
+  parse-known-args: false;
+  }
+window {
+    width: 32%;
+    // Optional: You might also want to adjust other window properties
+    // padding: 20px;
+    // border-radius: 10px;
+    // background-color: #2e3440;
+}

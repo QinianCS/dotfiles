@@ -1,0 +1,20 @@
+[repository]
+repository = "/j/rustic/codeberg/"
+# repository = "opendal:b2"
+password-file = "/home/t/o/passwd.txt"
+# Other options can be given here - note that opendal also support reading config from env
+# files or AWS config dirs, see the opendal S3 docs for more information
+# https://opendal.apache.org/docs/rust/opendal/services/struct.S3.html
+# [repository.options]
+# access_key_id = "003d8916a2e2ffb0000000002" # this can be ommited, when AWS config is used
+# secret_access_key = "K003HyKFzUHJ5jQudkqxvxa2owbYSmM" # this can be ommited, when AWS config is used
+# bucket = "codeberg"
+# bucket_id = "2db8d941262a12ee926f0f1b"
+# root = "/codeberg"
+[backup]
+label = "home"
+iglob-files = ["/home/t/.config/rustic/exclude.glob"]
+one-file-system = true
+skip-identical-parent = true
+no-require-git = true 
+git-ignore = true

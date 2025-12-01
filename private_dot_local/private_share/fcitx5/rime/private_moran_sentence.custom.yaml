@@ -1,0 +1,11 @@
+# 功能開關一鍵配置
+
+patch:
+  switches/@2/reset: 1 # 漢字, 汉字
+  switches/@4/reset: 1 # 通用, 增廣
+  switches/@7/reset: 1 # 不拆, 扌斥
+  moran/enable_quick_code_hint: true
+  # reverse_tiger/prefix: "ofc"
+  reverse_tiger/prefix: "`"
+  reverse_tiger/tips: 〔形碼〕
+  reverse_tick:

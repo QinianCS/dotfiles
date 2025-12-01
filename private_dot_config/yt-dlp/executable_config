@@ -1,0 +1,22 @@
+--proxy socks5://127.0.0.1:7890
+--write-sub
+--embed-chapters
+--add-metadata
+#--downloader aria2c
+#--downloader axel
+#--write-auto-sub
+--sub-lang en,ja
+#--download-archive "d:\Downloads\aria2\NA\archive.txt"
+--download-archive "/home/t/Downloads/aria2/archive.txt"
+#-f bestvideo+bestaudio
+--merge-output-format mp4
+--no-check-certificate
+#--verbose 
+--ignore-errors 
+#--sleep-interval 30
+#--max-sleep-interval 90
+--write-thumbnail -o "thumbnail:"
+#-o "d:\downloads\aria2\%(playlist_title)s\%(playlist_id)s\%(title)s-%(id)s.%(ext)s"
+-o "/data/j/downloads/aria2/%(playlist_title)s_%(playlist_id)s/%(playlist_index)s-%(title)s-%(id)s.%(ext)s"
+#-f 'worstvideo[height>=360]+bestaudio/worst[height>=480]'
+--cookies-from-browser firefox:~/.local/~lw

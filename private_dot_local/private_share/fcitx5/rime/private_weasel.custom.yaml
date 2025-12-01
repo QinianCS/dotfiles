@@ -1,0 +1,15 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sat Mar  8 16:46:32 2025"
+  rime_version: 1.13.1
+patch:
+  global_ascii: yes
+  show_notifications: yes
+  show_notifications_time: 500
+  "style/color_scheme": so_young
+  "style/comment_font_face": "Yuniversus, Iosevka Term, Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X"
+  "style/font_face": "Yuniversus, Iosevka Term, Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X"
+  "style/horizontal": False
+  "style/label_font_face": "Yuniversus, Iosevka Term, Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X"

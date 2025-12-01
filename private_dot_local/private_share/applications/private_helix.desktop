@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=/usr/bin/foot -a helix-xdg -e helix %U
+Name=helix
+Type=Application
+Icon=helix
+Keywords=Text;editor;
+Categories=Utility;TextEditor;ConsoleOnly
+MimeType= inode/directory;text/plain;

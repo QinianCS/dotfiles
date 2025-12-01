@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Exporting pacman pkg list
+When = PostTransaction
+# Exec = /usr/bin/env dash -c "pacman -Qqe > /data/sync/cloud/pacman-pkgs.txt"
+Exec = /usr/bin/env dash -c "pacman -Qqe | expac --timefmt='%Y-%m-%d %H:%M:%S' '%l\t%n' - | sort > /data/sync/_android/cloud/pacman-pkgs-by-time.txt"
+NeedsTargets

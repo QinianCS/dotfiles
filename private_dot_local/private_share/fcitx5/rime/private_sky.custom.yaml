@@ -1,0 +1,97 @@
+patch:
+  reverse_lookup/dictionary: moran.extended_custom
+  reverse_lookup/prism: moran
+  reverse_lookup/tips: 〔魔然反查〕
+  reverse_lookup/preedit_format:
+  schema/dependencies+: 
+    - moran.extended_custom
+    - moran
+  switches:
+    - options:
+        - original
+        - yuhao_charset_prioritizer_common
+        - yuhao_charset_prioritizer_ubiquitous
+      states: [原始排序, 常用字優先, 極常用字優先]
+      reset: 1
+      # Control+Shift+M
+    - options:
+        - cjk
+        - yuhao_charset_filter_common
+        - yuhao_charset_filter_tonggui
+        - yuhao_charset_filter_harmonic
+      states: [全漢字, 常用字, 通规字, 陸繁字]
+      reset: 0
+      # Control+Shift+O
+    - name: yuhao_single_char_only_for_full_code
+      states: ["字詞同出", "全碼出單"]
+      reset: 0
+      # Control+Shift+D
+    - name: yuhao_postpone_full_code
+      reset: 0
+      states: [原始排序, 全碼後置]
+      # Control+Shift+H
+    - options:
+        - yuhao_chaifen.off
+        - yuhao_chaifen.lv2
+        - yuhao_chaifen.lv3
+      states: [無註解, 二重註解, 多重註解]
+      reset: 2
+    - name: yuhao_autocompletion_filter
+      reset: 0
+      states: [輸入預測, 精確匹配]
+      # Control+Shift+Y
+    - name: traditionalization
+      states: [简保持, 简转繁]
+      reset: 0
+      # Control+Shift+F
+    - name: simplification
+      states: [繁保持, 繁轉簡]
+      reset: 0
+      # Control+Shift+J
+    - name: ascii_mode
+      states: [中文, 西文]
+      reset: 0
+    - name: full_shape
+      states: ["半角", "全角"]
+      reset: 0
+    - name: ascii_punct
+      states: [。，, ．，]
+      reset: 0
+  key_binder:
+    bindings:
+      - { when: always, accept: "Control+period", toggle: ascii_punct }
+      - { when: always, accept: "Control+Shift+period", toggle: ascii_punct }
+      - { when: always, accept: "Control+Shift+J", toggle: simplification }
+      - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
+      - {
+          when: always,
+          accept: "Control+Shift+M",
+          toggle: yuhao_charset_prioritizer_common,
+        } # 常用字優先
+      - {
+          when: has_menu,
+          accept: "Control+Shift+O",
+          toggle: yuhao_charset_filter_common,
+        } # 常用詞過濾
+      - { when: has_menu, accept: "0", toggle: yuhao_charset_filter_common } # 常用詞過濾
+      - { when: has_menu, accept: "/", toggle: yuhao_chaifen.off } # 拆分
+      - {
+          when: always,
+          accept: "Control+Shift+D",
+          toggle: yuhao_single_char_only_for_full_code,
+        } # 全码出单
+      - {
+          when: always,
+          accept: "Control+Shift+H",
+          toggle: yuhao_postpone_full_code,
+        } # 全碼後置
+      - {
+          when: always,
+          accept: "Control+Shift+Y",
+          toggle: yuhao_autocompletion_filter,
+        } # 輸入預測
+      - { when: has_menu, accept: semicolon, send: 2 } # 分号次选
+      - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
+      - { when: has_menu, accept: Tab, send: 2 } # 製表符次选
+      - { when: has_menu, accept: minus, send: Page_Up } # 減號上翻頁
+      - { when: has_menu, accept: equal, send: Page_Down } # 等號下翻頁

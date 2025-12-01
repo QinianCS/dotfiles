@@ -1,0 +1,4 @@
+[default]
+exclude-file = "/home/t/.config/rustic/exclude.glob"
+exclude-if-present = [".nobackup", "CACHEDIR.TAG"]
+one-file-system = true

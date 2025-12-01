@@ -1,0 +1,48 @@
+# yazi.toml
+[mgr]
+ratio = [0, 4, 4]
+show_hidden = true
+linemode = "size_mtime"
+# linemode = "file_info"
+[opener]
+play = [
+  { run = 'mpv "$@"', orphan = true, for = "unix" },
+  # { run = '"C:\Program Files\mpv.exe" %*', orphan = true, for = "windows" },
+]
+edit = [
+  { run = '$EDITOR "$@"', block = true, for = "unix" },
+  # { run = "%EDITOR% %*", block = true, for = "windows" },
+]
+edit_fork = [
+  { run = 'foot -a helix-yazi helix "$@"', orphan = true, for = "unix" },
+]
+open = [{ run = 'xdg-open "$@"', desc = "Open" }]
+
+audacious = [
+  { run = 'audacious "$@"', desc = "audacious" },
+  # mime = "inode/directory" # Target directorices
+  # cmd = 'audacious "$@"'   # Replace with your command
+  # block = true             # Prevent default directory entry behavior
+]
+[open]
+prepend_rules = [
+  { mime = "inode/directory", use = "edit" },
+  { mime = "inode/directory", use = "edit_fork" },
+  { mime = "inode/directory", use = "audacious" },
+  # { name = "*.json", use = "edit" },
+  # Multiple openers for a single rule
+  # { name = "*.html", use = [ "open", "edit" ] },
+]
+# append_rules = [
+# { name = "*", use = "my-fallback" },
+# ]
+# [plugin]
+
+# prepend_previewers = [
+#   { name = "*.csv", run = "rich-preview" },   # for csv files
+#   { name = "*.md", run = "rich-preview" },    # for markdown (.md) files
+#   { name = "*.rst", run = "rich-preview" },   # for restructured text (.rst) files
+#   { name = "*.ipynb", run = "rich-preview" }, # for jupyter notebooks (.ipynb)
+#   { name = "*.json", run = "rich-preview" },  # for json (.json) files
+#    { name = "*.lang_type", run = "rich-preview"} # for particular language files eg. .py, .go., .lua, etc.
+# ]

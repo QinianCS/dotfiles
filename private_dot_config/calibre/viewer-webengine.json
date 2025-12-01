@@ -1,0 +1,472 @@
+{
+  "configure-viewer-toolbar-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAPBAAABfgAABioAAAOyAAADwQAAAZsAAAYqAAADsgAAAAAAAAAACgAAAAPBAAABmwAABioAAAOy"
+  },
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1440,
+      "width": 2560,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": true,
+    "geometry": {
+      "height": 1440,
+      "width": 2560,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1440,
+      "width": 2560,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAACf8AAAWfAAAAAAAAAAAAAAn/AAAFnwAAAAAABAAACgAAAAAAAAAAAAAACf8AAAWf"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 2.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "HKC OVERSEAS LIMITED",
+      "model": "S2716U",
+      "name": "DP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-viewer_image_popup_geometry": {
+    "frame_geometry": {
+      "height": 1417,
+      "width": 1280,
+      "x": 2557,
+      "y": -30
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1384,
+      "width": 1274,
+      "x": 2560,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1384,
+      "width": 1274,
+      "x": 2560,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAn9////4gAADvwAAAVqAAAKAAAAAAAAAA75AAAFZwAAAAEAAAAACgAAAAoAAAAAAAAADvkAAAVn"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 2560,
+        "y": 0
+      },
+      "index_in_screens_list": 1,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "LEN S24q-10",
+      "name": "HDMI-A-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 5120,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "image_popup_fit_image": true,
+  "local_storage": {
+    "simple_input_history_net_search_url": [
+      "https://google.com/search?q={q}"
+    ]
+  },
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAAAAACf8AAAV9AAACPwAAAOIAAAiZAAAFTgAAAAACAAAACgAAAAAAAAAAHQAACf8AAAV9"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAFdAAAFoPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawEAAAAAAAAFoAAAAJQA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAArUAAAKuAAAAqQD///8AAAABAAACWAAABV38AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACXAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAARAA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAAAAAVdAAAAGQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAOsA////AAAInQAABaAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "red queen": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "what williams": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "好像就好了": {
+      "case_sensitive": false,
+      "mode": "normal"
+    }
+  },
+  "session_data": {
+    "base_font_size": 20,
+    "book_scrollbar": false,
+    "columns_per_screen": {
+      "landscape": 2,
+      "portrait": 2
+    },
+    "controls_footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "pos-book"
+    },
+    "controls_help_shown_count": 2,
+    "controls_help_shown_count_rtl_page_progression": 2,
+    "current_color_scheme": "sepia-light",
+    "footer": {
+      "left": "section",
+      "middle": "empty",
+      "right": "pages-progress"
+    },
+    "header": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "hide_tooltips": null,
+    "keyboard_shortcuts": {
+      "left": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "PageUp",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "pagedown": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": " ",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "ArrowRight",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "pageup": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": " ",
+          "metaKey": false,
+          "shiftKey": true
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "ArrowLeft",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ]
+    },
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "margin_bottom": 40,
+    "margin_left": 50,
+    "margin_right": 50,
+    "margin_top": 40,
+    "max_text_width": 1400,
+    "override_book_colors": "dark",
+    "paged_taps_scroll_by_screen": true,
+    "paged_wheel_scrolls_by_screen": true,
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "show_selection_bar": false,
+    "skipped_dialogs": {},
+    "standalone_font_settings": {
+      "mono_family": "Sarasa Fixed Slab SC",
+      "sans_family": "Sarasa UI SC",
+      "serif_family": "Alegreya",
+      "zoom_step_size": 10
+    },
+    "standalone_misc_settings": {
+      "remember_window_geometry": true,
+      "save_annotations_in_ebook": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Eye of the Camera (2011) (Digital) (Kileko-Empire)"
+        ],
+        "key": "/home/t/Downloads/aria2/Marvels - Eye of the Camera (2011) (Digital) (Kileko-Empire).cbz",
+        "pathtoebook": "/home/t/Downloads/aria2/Marvels - Eye of the Camera (2011) (Digital) (Kileko-Empire).cbz",
+        "timestamp": "2025-07-30T06:32:58.900Z",
+        "title": "Marvels"
+      },
+      {
+        "key": "/home/t/Downloads/aria2/Marvels Annotated 01-04 (2019) (Digital) (Zone-Empire)/Marvels Annotated 04 (of 04) (2019) (Digital) (Zone-Empire).cbr",
+        "pathtoebook": "/home/t/Downloads/aria2/Marvels Annotated 01-04 (2019) (Digital) (Zone-Empire)/Marvels Annotated 04 (of 04) (2019) (Digital) (Zone-Empire).cbr",
+        "timestamp": "2025-07-30T00:47:28.178Z",
+        "title": "Marvels Annotated 04 (of 04) (2019) (Digital) (Zone-Empire)"
+      },
+      {
+        "authors": [
+          "Charles Petzold"
+        ],
+        "key": "/home/t/Downloads/small/kobo/Charles Petzold - Code_ The Hidden Language of Computer Hardware and Software-Microsoft Press (2022).epub",
+        "pathtoebook": "/home/t/Downloads/small/kobo/Charles Petzold - Code_ The Hidden Language of Computer Hardware and Software-Microsoft Press (2022).epub",
+        "timestamp": "2025-05-18T10:47:18.479Z",
+        "title": "Code: The Hidden Language of Computer Hardware and Software, Second Edition"
+      },
+      {
+        "authors": [
+          "Charles Petzold"
+        ],
+        "key": "/home/t/Downloads/Петцольд, Чарльз - The Annotated Turing_ A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine (2008, Wiley) - libgen.li.azw3",
+        "pathtoebook": "/home/t/Downloads/Петцольд, Чарльз - The Annotated Turing_ A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine (2008, Wiley) - libgen.li.azw3",
+        "timestamp": "2025-05-16T12:53:44.662Z",
+        "title": "Annotated Turing"
+      },
+      {
+        "authors": [
+          "施耐庵, 罗贯中"
+        ],
+        "key": "/home/t/Downloads/small/kobo/果麦/水浒传 -- 施耐庵, 罗贯中 -- Di 1 ban, Xian _, 2021 -- 三秦出版社 -- 9787551823364 -- 45918ea66095a9dd283556f48c6f4c0d -- Anna’s Archive(1).epub",
+        "pathtoebook": "/home/t/Downloads/small/kobo/果麦/水浒传 -- 施耐庵, 罗贯中 -- Di 1 ban, Xian _, 2021 -- 三秦出版社 -- 9787551823364 -- 45918ea66095a9dd283556f48c6f4c0d -- Anna’s Archive(1).epub",
+        "timestamp": "2025-05-16T06:36:31.282Z",
+        "title": "水浒传"
+      },
+      {
+        "authors": [
+          "Harold Abelson;Gerald Jay Sussman;Martin Henz;Tobias Wrigstad;",
+          "Gerald Sussman",
+          "Martin Henz",
+          "Tobias Wrigstad"
+        ],
+        "key": "/home/t/Downloads/Harold Abelson_Gerald Jay Sussman_Martin Henz_Tobias Wrigstad__ - Structure and Interpretation of Computer Programs _ JavaScript Edition (2022, MIT Press) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/Harold Abelson_Gerald Jay Sussman_Martin Henz_Tobias Wrigstad__ - Structure and Interpretation of Computer Programs _ JavaScript Edition (2022, MIT Press) - libgen.li.epub",
+        "timestamp": "2025-05-16T02:39:26.782Z",
+        "title": "Structure and Interpretation of Computer Programs: JavaScript Edition"
+      },
+      {
+        "authors": [
+          "罗贯中"
+        ],
+        "key": "/home/t/Downloads/small/古文小说/stockpile/罗贯中 - 三国演义(地图珍藏本上下)(精) (2013, 金盾) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/small/古文小说/stockpile/罗贯中 - 三国演义(地图珍藏本上下)(精) (2013, 金盾) - libgen.li.epub",
+        "timestamp": "2025-05-04T03:56:56.192Z",
+        "title": "三国演义(地图珍藏本上下)(精)"
+      },
+      {
+        "authors": [
+          "施耐庵、罗贯中"
+        ],
+        "key": "/home/t/Downloads/small/古文小说/水滸/19747-会评本水浒全传.epub",
+        "pathtoebook": "/home/t/Downloads/small/古文小说/水滸/19747-会评本水浒全传.epub",
+        "timestamp": "2025-05-04T03:54:46.918Z",
+        "title": "会评本水浒全传"
+      },
+      {
+        "authors": [
+          "施耐庵 罗贯中"
+        ],
+        "key": "/home/t/Downloads/small/古文小说/水滸/水浒传 -- 施耐庵 罗贯中 -- 2023 -- 43aacd1bc47f8c3f647da5d88f31196a -- Anna’s Archive.epub",
+        "pathtoebook": "/home/t/Downloads/small/古文小说/水滸/水浒传 -- 施耐庵 罗贯中 -- 2023 -- 43aacd1bc47f8c3f647da5d88f31196a -- Anna’s Archive.epub",
+        "timestamp": "2025-05-04T03:49:42.494Z",
+        "title": "水浒传"
+      },
+      {
+        "authors": [
+          "Eva Dou"
+        ],
+        "key": "/home/t/Downloads/Eva Dou - House of Huawei _ The Secret History of China's Most Powerful Company-Penguin Publishing Group (2025).epub",
+        "pathtoebook": "/home/t/Downloads/Eva Dou - House of Huawei _ The Secret History of China's Most Powerful Company-Penguin Publishing Group (2025).epub",
+        "timestamp": "2025-04-27T03:53:01.962Z",
+        "title": "House of Huawei: The Secret History of China's Most Powerful Company"
+      },
+      {
+        "authors": [
+          "Eva Dou"
+        ],
+        "key": "/home/t/Downloads/small/kobo/House of Huawei The Secret History of Chinas Most Powerful Company (Eva Dou) (Z-Library).epub",
+        "pathtoebook": "/home/t/Downloads/small/kobo/House of Huawei The Secret History of Chinas Most Powerful Company (Eva Dou) (Z-Library).epub",
+        "timestamp": "2025-04-27T03:47:06.059Z",
+        "title": "House of Huawei: The Secret History of China's Most Powerful Company"
+      },
+      {
+        "authors": [
+          "Administrator"
+        ],
+        "key": "/home/t/ixinzhi - “缠中说禅”实战理论(文华财经整理修专业正版)-iBooker xinzhi (2017).epub",
+        "pathtoebook": "/home/t/ixinzhi - “缠中说禅”实战理论(文华财经整理修专业正版)-iBooker xinzhi (2017).epub",
+        "timestamp": "2025-04-21T12:07:16.621Z",
+        "title": "“缠中说禅”实战理论(文华财经整理修专业正版)"
+      },
+      {
+        "authors": [
+          "曹雪芹",
+          "吴铭恩 汇校",
+          "脂砚斋"
+        ],
+        "key": "/home/t/Downloads/small/古文小说/紅樓夢/红楼梦脂评汇校本 繁体竖排.epub",
+        "pathtoebook": "/home/t/Downloads/small/古文小说/紅樓夢/红楼梦脂评汇校本 繁体竖排.epub",
+        "timestamp": "2025-04-04T13:37:50.915Z",
+        "title": "红楼梦脂评汇校本"
+      },
+      {
+        "authors": [
+          "当年明月"
+        ],
+        "key": "/home/t/Downloads/small/明朝那些事儿（图文增补版）.epub",
+        "pathtoebook": "/home/t/Downloads/small/明朝那些事儿（图文增补版）.epub",
+        "timestamp": "2025-04-04T13:19:00.927Z",
+        "title": "明朝那些事儿（图文增补版）"
+      },
+      {
+        "authors": [
+          "施耐庵, 罗贯中"
+        ],
+        "key": "/home/t/Downloads/small/果麦/水浒传 -- 施耐庵, 罗贯中 -- Di 1 ban, Xian _, 2021 -- 三秦出版社 -- 9787551823364 -- 45918ea66095a9dd283556f48c6f4c0d -- Anna’s Archive(1).epub",
+        "pathtoebook": "/home/t/Downloads/small/果麦/水浒传 -- 施耐庵, 罗贯中 -- Di 1 ban, Xian _, 2021 -- 三秦出版社 -- 9787551823364 -- 45918ea66095a9dd283556f48c6f4c0d -- Anna’s Archive(1).epub",
+        "timestamp": "2025-04-04T12:55:40.356Z",
+        "title": "水浒传"
+      },
+      {
+        "authors": [
+          "「宋」司馬光 編集",
+          "「宋」胡三省 輯注"
+        ],
+        "key": "/home/t/Downloads/small/_pc/中国古代史/司马光/horizontal/資治通鑑·繁體橫排版.epub",
+        "pathtoebook": "/home/t/Downloads/small/_pc/中国古代史/司马光/horizontal/資治通鑑·繁體橫排版.epub",
+        "timestamp": "2025-04-04T12:54:00.161Z",
+        "title": "資治通鑑·繁體橫排版（胡三省注）294卷全"
+      },
+      {
+        "authors": [
+          "江晓原"
+        ],
+        "key": "/home/t/Downloads/small/stockpile/通天：中国传统天学史 (江晓原) (Z-Library).epub",
+        "pathtoebook": "/home/t/Downloads/small/stockpile/通天：中国传统天学史 (江晓原) (Z-Library).epub",
+        "timestamp": "2025-03-30T06:27:54.179Z",
+        "title": "通天：中国传统天学史"
+      },
+      {
+        "authors": [
+          "De Quattro, A."
+        ],
+        "key": "/home/t/Downloads/small/Learn Markdown Practical Guide (De Quattro, A.) (Z-Library).epub",
+        "pathtoebook": "/home/t/Downloads/small/Learn Markdown Practical Guide (De Quattro, A.) (Z-Library).epub",
+        "timestamp": "2025-03-29T00:58:12.641Z",
+        "title": "Learn Markdown : Practical Guide"
+      },
+      {
+        "authors": [
+          "William Shotts"
+        ],
+        "key": "/home/t/Downloads/small/William Shotts - The Linux Command Line_ A Complete Introduction, 2nd Edition (2019, No Starch Press, Inc.) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/small/William Shotts - The Linux Command Line_ A Complete Introduction, 2nd Edition (2019, No Starch Press, Inc.) - libgen.li.epub",
+        "timestamp": "2025-03-28T09:51:27.472Z",
+        "title": "The Linux Command Line: A Complete Introduction, 2nd Edition"
+      },
+      {
+        "authors": [
+          "Abdaal, Ali",
+          "Forte, Tiago",
+          "Broas, Billy"
+        ],
+        "key": "/home/t/Downloads/small/Simple Marketing For Smart People The One Question You Need to Win Customers without Gimmicks, Hype, or Hard Selling (Billy Broas, Tiago Forte) (Z-Library).epub",
+        "pathtoebook": "/home/t/Downloads/small/Simple Marketing For Smart People The One Question You Need to Win Customers without Gimmicks, Hype, or Hard Selling (Billy Broas, Tiago Forte) (Z-Library).epub",
+        "timestamp": "2025-03-28T09:49:48.837Z",
+        "title": "Simple Marketing For Smart People: The One Question You Need to Win Customers without Gimmicks, Hype, or Hard Selling"
+      },
+      {
+        "authors": [
+          "Tiago Forte"
+        ],
+        "key": "/home/t/Downloads/small/Tiago Forte - The PARA Method_ The Simple System for Organizing Your Digital Life in Seconds (2023, Atria Books) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/small/Tiago Forte - The PARA Method_ The Simple System for Organizing Your Digital Life in Seconds (2023, Atria Books) - libgen.li.epub",
+        "timestamp": "2025-03-28T09:48:33.208Z",
+        "title": "The PARA Method: Simplify, Organize, and Master Your Digital Life"
+      },
+      {
+        "authors": [
+          "Carla Schroder"
+        ],
+        "key": "/home/t/Downloads/small/Carla Schroder - Linux Cookbook, 2nd Edition (2021, O'Reilly Media, Inc.) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/small/Carla Schroder - Linux Cookbook, 2nd Edition (2021, O'Reilly Media, Inc.) - libgen.li.epub",
+        "timestamp": "2025-03-28T07:41:40.541Z",
+        "title": "Linux Cookbook, 2nd Edition"
+      },
+      {
+        "authors": [
+          "Brian Ward"
+        ],
+        "key": "/home/t/Downloads/small/Ward, Brian - How Linux Works, 3rd Edition (2021, No Starch Press) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/small/Ward, Brian - How Linux Works, 3rd Edition (2021, No Starch Press) - libgen.li.epub",
+        "timestamp": "2025-03-28T07:23:20.039Z",
+        "title": "How Linux Works"
+      },
+      {
+        "authors": [
+          "Carla Schroder"
+        ],
+        "key": "/home/t/Downloads/Carla Schroder - Linux Cookbook, 2nd Edition (2021, O'Reilly Media, Inc.) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/Carla Schroder - Linux Cookbook, 2nd Edition (2021, O'Reilly Media, Inc.) - libgen.li.epub",
+        "timestamp": "2025-03-28T04:05:11.304Z",
+        "title": "Linux Cookbook, 2nd Edition"
+      },
+      {
+        "authors": [
+          "Michael Kerrisk"
+        ],
+        "key": "/home/t/Downloads/Kerrisk, Michael - The Linux programming interface a Linux und UNIX system programming handbook (2018_2010, No Starch Press, Inc.) - libgen.li.epub",
+        "pathtoebook": "/home/t/Downloads/Kerrisk, Michael - The Linux programming interface a Linux und UNIX system programming handbook (2018_2010, No Starch Press, Inc.) - libgen.li.epub",
+        "timestamp": "2025-03-28T04:01:17.947Z",
+        "title": "The Linux Programming Interface"
+      }
+    ],
+    "user_stylesheet": "\n*, * *, body, body *, .calibre7, .first {\n    font-family: Alegreya, Noto Sans, \"FZZhuZiMingChaoSongJF + FOT-TsukuAOldMin Pr6N\", FOT-TsukuAOldMin Pr6N, \"FOT-TsukuAOldMin Pr6N + FZZhuZiMingChaoSongJF\",FZZhuZiMingChaoSongJF, 方正筑紫明朝宋 简繁,  Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X;\n    }\n\n:lang(zh-Hans){\n    font-family: Alegreya Sans, \"FZZhuZiMingChaoSongJF + FOT-TsukuAOldMin Pr6N\", FOT-TsukuAOldMin Pr6N, \"FOT-TsukuAOldMin Pr6N + FZZhuZiMingChaoSongJF\",FZZhuZiMingChaoSongJF, 方正筑紫明朝宋 简繁,  Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X;\n}\n\n:lang(zh-Hant){\n    font-family: Alegreya Sans, FOT-TsukuAOldMin Pr6N, \"FOT-TsukuAOldMin Pr6N + FZZhuZiMingChaoSongJF\",FZZhuZiMingChaoSongJF, 方正筑紫明朝宋 简繁,  Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X;\n}\n/* :lang(zh){\n    font-family: Alegreya Sans, \"FZZhuZiMingChaoSongJF + FOT-TsukuAOldMin Pr6N\", FOT-TsukuAOldMin Pr6N, \"FOT-TsukuAOldMin Pr6N + FZZhuZiMingChaoSongJF\",FZZhuZiMingChaoSongJF, 方正筑紫明朝宋 简繁,  Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X;\n} */\n:lang(en){\n    font-family: Alegreya, Gentium Book Plus, serif;\n}\n:lang(ja){\n    font-family: Alegreya Sans, Noto Sans, FOT-TsukuAOldMin Pr6N, \"FOT-TsukuAOldMin Pr6N + FZZhuZiMingChaoSongJF\",FZZhuZiMingChaoSongJF, 方正筑紫明朝宋 简繁,  Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X;\n}"
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "normal"
+}

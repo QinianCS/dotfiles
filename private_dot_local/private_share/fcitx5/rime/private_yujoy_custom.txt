@@ -1,0 +1,18 @@
+# Rime table
+#@/db_name	yujoy_custom
+#@/db_type	tabledb
+#@/rime_version	1.13.1
+#@/tick	16
+凇	aamd	2
+華	ddrs	2
+假	etad	1
+密	inwj	1
+发	jdid	1
+·	kkjg	1
+聖	lkyw	2
+淞	namd	1
+问	rk	1
+戴聖	rklk	1
+載德	rkwr	2
+斯	rlj	1
+雾	sts	3

@@ -1,0 +1,4 @@
+patch:
+  switches/@4/reset: 0 # emoji
+  switches/@8/reset: 1 # char set
+  # punctuator: {digit_separators: ":,.", __include: symbols}

@@ -1,0 +1,6 @@
+patch:
+  dependencies/+:
+    - moran
+    - moran.extended_custom
+  reverse_lookup/dictionary: moran.extended_custom
+  reverse_lookup/prism: moran

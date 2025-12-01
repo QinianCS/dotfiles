@@ -1,0 +1,33 @@
+{{- $choices := list "desktop" "laptop" "server" "termux" -}}
+{{- $hosttype := promptChoiceOnce . "hosttype" "What type of host are you on" $choices -}}
+
+{{- $osid := .chezmoi.os -}}
+{{- if (and (eq .chezmoi.os "linux") (hasKey .chezmoi.osRelease "id")) -}}
+{{-   $osid = printf "%s-%s" .chezmoi.os .chezmoi.osRelease.id -}}
+{{- end -}}
+
+{{- $email := "qiniancs@proton.me" -}}
+# {{- if eq $hosttype "server" -}}
+# {{-   $email = "" -}}
+{{- end -}}
+
+
+{{ if eq $hosttype "desktop" "laptop" -}}
+encryption: age
+age:
+  identity: "~/.config/chezmoi/key.txt"
+  recipient: age18mkq3msa4740xfz2dn9rwve9fw73kkj7hne6q29etn02f6vky4sq2gpx52
+hooks:
+  read-source-state:
+    pre:
+      command: ".local/share/chezmoi/.decrypt-private-key.sh"
+{{- end }}
+
+
+data:
+  hosttype: {{ $hosttype | quote }}
+  osid: {{ $osid | quote }}
+  email: {{ $email | quote }}
+git:
+  autoCommit: true
+  autoPush: true

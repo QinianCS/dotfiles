@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WinRAR
+Exec=env WINEPREFIX="/home/t/.wine" wine C:\\\\users\\\\t\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\WinRAR\\\\WinRAR.lnk
+Type=Application
+StartupNotify=true
+Comment=Process RAR, ZIP and other archive formats
+Path=/home/t/.wine/dosdevices/c:/users/t/Desktop
+Icon=6C02_WinRAR.0
+StartupWMClass=winrar.exe

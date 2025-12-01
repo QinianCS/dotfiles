@@ -1,0 +1,7 @@
+[backup]
+glob-files = ["/home/t/.config/rustic/exclude.glob"]
+one-file-system = true
+skip-identical-parent = true
+no-require-git = true 
+git-ignore = true
+exclude-if-present = [".nobackup", "CACHEDIR.TAG"]

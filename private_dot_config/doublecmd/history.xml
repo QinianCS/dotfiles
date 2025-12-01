@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/home/t/rust/niri/niri-ipc/src/</Item>
+      <Item>/</Item>
+      <Item>/home/</Item>
+      <Item>/home/t/</Item>
+      <Item>/data/j/j/musica classica extracted/</Item>
+      <Item>/data/j/j/</Item>
+      <Item>/data/j/</Item>
+      <Item>/home/t/Downloads/small/</Item>
+      <Item>/home/t/Downloads/small/stockpile/</Item>
+      <Item>/home/t/Downloads/small/stockpile/novel/</Item>
+      <Item>/home/t/Downloads/small/stockpile/english_translations/</Item>
+      <Item>/home/t/Downloads/small/_pc/</Item>
+      <Item>/home/t/Downloads/small/_pc/中国古代史/</Item>
+      <Item>/home/t/Downloads/small/_pc/中国古代史/司马光/</Item>
+      <Item>/home/t/Downloads/small/_pc/古文小说/</Item>
+      <Item>/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/</Item>
+      <Item>/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/金瓶梅的祖宗/</Item>
+      <Item>/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/会评校注金瓶梅（典藏版）/</Item>
+      <Item>/home/t/Downloads/small/_pc/会评校注金瓶梅（修订本）/pdf/</Item>
+      <Item>/home/t/Downloads/small/kobo/</Item>
+      <Item>/home/t/Downloads/small/kobo/yyib/</Item>
+      <Item>/home/t/Downloads/small/kobo/shakespeare/</Item>
+      <Item>/home/t/Downloads/small/kobo/capital/</Item>
+      <Item>/home/t/Downloads/small/kobo/rust/</Item>
+      <Item>/home/t/Downloads/</Item>
+      <Item>/home/t/sync/koreader/</Item>
+      <Item>/home/t/sync/koreader/settings/</Item>
+      <Item>/home/t/sync/koreader/fonts2/</Item>
+      <Item>/home/t/sync/</Item>
+      <Item>/home/t/Downloads/small/russian/</Item>
+      <Item>/home/t/Downloads/small/_pc/_archive/</Item>
+      <Item>/home/t/Downloads/small/_pc/by domain/</Item>
+      <Item>/home/t/Downloads/small/_pc/新中国史/</Item>
+      <Item>/home/t/Downloads/small/_pc/新中国史/newchina/</Item>
+      <Item>/home/t/Downloads/small/_pc/新中国史/cpc/</Item>
+      <Item>/home/t/Downloads/small/stockpile/cpc/</Item>
+      <Item>/home/t/Downloads/small/stockpile/yyib/</Item>
+      <Item>/home/t/Downloads/small/stockpile/mao/</Item>
+      <Item>/home/t/Downloads/small/_pc/mao/</Item>
+      <Item>/home/t/Downloads/small/stockpile/literature/</Item>
+      <Item>/home/t/Downloads/small/果麦/</Item>
+      <Item>/home/t/Downloads/small/_pc/古漢語/</Item>
+      <Item>/home/t/Downloads/small/古漢語/</Item>
+      <Item>/home/t/Downloads/small/_pc/_archive/马恩列epub/</Item>
+      <Item>/home/t/Downloads/small/_pc/_archive/马恩pdf/</Item>
+      <Item>/home/t/Downloads/small/马恩列/</Item>
+      <Item>/home/t/Downloads/small/_pc/古文小说/stockpile/</Item>
+      <Item>/home/t/Downloads/small/_pc/古文小说/紅樓夢/</Item>
+      <Item>/home/t/Downloads/small/_pc/果麦/</Item>
+      <Item>/home/t/Downloads/small/_pc/果麦/紅樓夢/</Item>
+    </Navigation>
+    <CommandLine/>
+    <FileMask>
+      <Item>*.*</Item>
+    </FileMask>
+    <VolumeSize/>
+    <CreateDirectories>
+      <Item Tag="0">cache2</Item>
+      <Item Tag="0">religion</Item>
+      <Item Tag="0">capital</Item>
+      <Item Tag="0">bin</Item>
+      <Item Tag="0">Downloads</Item>
+      <Item Tag="0">xoftware</Item>
+      <Item Tag="0">sure</Item>
+      <Item Tag="0">pc-9801</Item>
+      <Item Tag="0">.xe</Item>
+      <Item Tag="0">fmtowns</Item>
+      <Item Tag="0">1</Item>
+      <Item Tag="0">nonjapan</Item>
+      <Item Tag="0">japan</Item>
+      <Item Tag="0">ngc</Item>
+      <Item Tag="0">jordan peterson</Item>
+      <Item Tag="0">pack</Item>
+      <Item Tag="0">nointro</Item>
+      <Item Tag="0">t-en</Item>
+      <Item Tag="0">aria2</Item>
+      <Item Tag="0">+</Item>
+    </CreateDirectories>
+    <SearchText/>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <RenameNameMask>
+      <Item>[N1:10]0[N11:122]</Item>
+    </RenameNameMask>
+    <RenameExtMask>
+      <Item>[E]</Item>
+    </RenameExtMask>
+    <SearchDirectories/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>

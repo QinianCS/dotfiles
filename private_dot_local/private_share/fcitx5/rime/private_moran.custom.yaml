@@ -1,0 +1,30 @@
+# 功能開關一鍵配置
+
+patch:
+#  switches/@2/reset: 1 # 漢字, 汉字
+  switches/@4/reset: 1 # 通用, 增廣
+  switches/@7/reset: 1 # 不拆, 扌斥
+  moran/enable_quick_code_hint: true
+  translator/dictionary: moran.extended_custom
+
+  #改虎码反查为卿云：
+  # reverse_tiger/dictionary: yujoy
+  # reverse_tiger/prism: yujoy
+  # reverse_tiger/tips: 〔卿雲〕
+  # reverse_tick/dictionary: yujoy
+  # reverse_tick/prism: yujoy
+  # reverse_tick/tips: 〔卿雲〕
+
+  reverse_tiger/dictionary: yuming
+  reverse_tiger/prism: yuming
+  reverse_tiger/tips: 〔形碼〕
+  reverse_tick/dictionary: yuming
+  reverse_tick/prism: yuming
+  reverse_tick/tips: 〔形碼〕
+
+  #改笔画反查为部首：
+  reverse_stroke/dictionary: radical_pinyin
+  reverse_stroke/prism: radical_pinyin
+  reverse_stroke/tips: 〔部首拼音〕
+  reverse_stroke/prefix: "obs"
+  recognizer/patterns/reverse_stroke: "^obs[A-Za-z]*$"

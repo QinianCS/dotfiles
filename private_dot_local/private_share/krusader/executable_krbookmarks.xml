@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xbel>
+<xbel>
+ <bookmark href="file:///home/t/.local/share/fcitx5/rime" icon="">
+  <title>rime</title>
+ </bookmark>
+ <bookmark href="file:///home/t/cache/_linking/_linux" icon="">
+  <title>linux</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.config" icon="">
+  <title>config</title>
+ </bookmark>
+ <bookmark href="file:///etc" icon="">
+  <title>etc</title>
+ </bookmark>
+ <bookmark href="file:///home/t/cache/_fonts" icon="">
+  <title>fonts</title>
+ </bookmark>
+ <bookmark href="file:///home/t/appimages" icon="">
+  <title>appimages</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.local" icon="">
+  <title>local</title>
+ </bookmark>
+ <bookmark href="file:///home/t/o" icon="">
+  <title>o</title>
+ </bookmark>
+ <bookmark href="file:///home/t/gitclones" icon="">
+  <title>gitclones</title>
+ </bookmark>
+ <bookmark href="file:///home/t/sync/koreader" icon="">
+  <title>koreader</title>
+ </bookmark>
+ <bookmark href="file:///" icon="">
+  <title>/</title>
+ </bookmark>
+ <bookmark href="file:///data/j" icon="">
+  <title>j</title>
+ </bookmark>
+ <bookmark href="file:///data/t" icon="">
+  <title>t</title>
+ </bookmark>
+ <bookmark href="file:///data/Games" icon="">
+  <title>games</title>
+ </bookmark>
+ <bookmark href="file:///data/j/j/musica classica extracted" icon="">
+  <title>musica</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.cache/yay" icon="">
+  <title>yay</title>
+ </bookmark>
+ <bookmark href="file:///home/t/Downloads/xps" icon="">
+  <title>x</title>
+ </bookmark>
+ <bookmark href="file:///home/t/sync" icon="">
+  <title>S</title>
+ </bookmark>
+ <bookmark href="file:///home/t/Downloads/small" icon="">
+  <title>ss</title>
+ </bookmark>
+ <bookmark href="file:///" icon="">
+  <title>/</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.cache/yay" icon="">
+  <title>yay</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.local/share" icon="">
+  <title>ls</title>
+ </bookmark>
+ <bookmark href="file:///home/t/clones" icon="">
+  <title>cl</title>
+ </bookmark>
+ <bookmark href="file:///home/t/n" icon="">
+  <title>nn</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.cache" icon="">
+  <title>c.</title>
+ </bookmark>
+ <bookmark href="file:///home/t/rust" icon="">
+  <title>R</title>
+ </bookmark>
+ <bookmark href="file:///home/t/rust" icon="">
+  <title>R</title>
+ </bookmark>
+ <bookmark href="file:///home/t/Pictures/wallpapers" icon="">
+  <title>wall</title>
+ </bookmark>
+ <bookmark href="file:///data" icon="">
+  <title>data</title>
+ </bookmark>
+ <bookmark href="file:///home/t/Downloads" icon="">
+  <title>dd</title>
+ </bookmark>
+ <bookmark href="file:///data/i" icon="">
+  <title>i</title>
+ </bookmark>
+</xbel>

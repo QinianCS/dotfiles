@@ -1,0 +1,42 @@
+[[input.prepend_keymap]]
+on = "<Esc>"
+run = "close"
+desc = "Cancel input"
+[[mgr.prepend_keymap]]
+desc = "Start bunny.yazi"
+on = ";"
+run = "plugin bunny"
+
+# [[mgr.prepend_keymap]]
+# desc = "Start bunny.yazi"
+# on = "<C-d>"
+# run = "plugin bunny"
+# Optionally, add another keymap to immediately fuzzy search bookmarks
+[[mgr.prepend_keymap]]
+desc = "Start bunny.yazi fuzzy search"
+on = "'"
+run = "plugin bunny fuzzy"
+
+[[mgr.prepend_keymap]]
+on = "<Enter>"
+run = "plugin smart-enter"
+desc = "Enter the child directory, or open the file"
+[[mgr.prepend_keymap]]
+on = "<Backspace>"
+run = "leave"
+[[mgr.prepend_keymap]]
+on = ["c", "m"]
+run = "plugin chmod"
+desc = "Chmod on selected files"
+[[mgr.prepend_keymap]]
+on = ["m", "d"]
+run = "linemode file_info"
+[[mgr.prepend_keymap]]
+on = ["d"]
+run = "remove --force"
+[[mgr.prepend_keymap]]
+on = ["<Home>"]
+run = "arrow top"
+[[mgr.prepend_keymap]]
+on = ["<End>"]
+run = "arrow bot"

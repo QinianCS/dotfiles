@@ -1,0 +1,179 @@
+{
+  "dance.modes": {
+    "": {
+      "hiddenSelectionsIndicatorsDecoration": {
+        "after": {
+          "color": "$list.warningForeground"
+        },
+        "backgroundColor": "$inputValidation.warningBackground",
+        "borderColor": "$inputValidation.warningBorder",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "isWholeLine": true
+      }
+    },
+    "input": {
+      "cursorStyle": "underline-thin"
+    },
+    "insert": {
+      "onLeaveMode": [
+        [
+          ".selections.save",
+          {
+            "register": " insert"
+          }
+        ]
+      ]
+    },
+    "select": {},
+    "normal": {
+      "lineNumbers": "relative",
+      "decorations": {
+        "applyTo": "main",
+        "backgroundColor": "$editor.hoverHighlightBackground",
+        "isWholeLine": true
+      },
+      "onEnterMode": [
+        [
+          ".selections.restore",
+          {
+            "register": " ^",
+            "try": true
+          }
+        ]
+      ],
+      "onLeaveMode": [
+        [
+          ".selections.save",
+          {
+            "register": " ^",
+            "style": {
+              "borderColor": "$editor.selectionBackground",
+              "borderStyle": "solid",
+              "borderWidth": "2px",
+              "borderRadius": "1px"
+            },
+            "until": [
+              [
+                "mode-did-change",
+                {
+                  "include": "normal"
+                }
+              ],
+              ["selections-did-change"]
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "\"CommitMono\", \"UbuntuMono Nerd Font\",\"Sarasa Term SC\", FSung-p, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X",
+  "editor.largeFileOptimizations": false,
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+
+  "search.quickOpen.includeHistory": false,
+
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "foam.openDailyNote.filenameFormat": "yyyy-mm-dd-'daily-note'",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "kdl.loglevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "chat.commandCenter.enabled": false,
+  "continue.showInlineTip": false,
+  // md
+  "markdown.extension.math.enabled": false,
+  "markdown.extension.print.absoluteImgPath": false,
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.copyFiles.destination": {
+    "**/*.md": "/images/${documentBaseName}/${fileName}"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.fontFamily": "\"CommitMono\", 'Droid Sans Mono', 'monospace', monospace"
+  },
+  "foam.logging.level": "off",
+  "foam.graph.style": {
+    "background": "#202020",
+
+    "fontSize": 12,
+
+    "fontFamily": "Serif",
+
+    "lineColor": "#277da1",
+
+    "lineWidth": 0.2,
+
+    "particleWidth": 1.0,
+
+    "highlightedForeground": "#f9c74f",
+
+    "node": {
+      "note": "#277da1"
+    }
+  },
+  // md end
+
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  // we try to make semantic highlighting look good
+  "editor.semanticHighlighting.enabled": true,
+  // prevent VSCode from modifying the terminal colors
+  "terminal.integrated.minimumContrastRatio": 1,
+  // make the window's titlebar use the workbench colors
+  "window.titleBarStyle": "custom",
+
+  // applicable if you use Go, this is an opt-in flag!
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+
+  // style
+
+  "catppuccin.accentColor": "green",
+  // make Mocha specifically very dark
+  // (this preserves other flavors!)
+
+  // use your accent (pink) on the statusBar as well
+  "catppuccin.customUIColors": {
+    "mocha": {
+      // "statusBar.foreground": "accent",
+    }
+  },
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "window.autoDetectHighContrast": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  // telemetry
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.feedback.enabled": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "manual",
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "workbench.colorTheme": "Nord Midnight"
+}

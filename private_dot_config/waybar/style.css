@@ -1,0 +1,51 @@
+@import "mocha.css";
+
+#tray menu {
+  min-height: unset;
+}
+
+* {
+  background-color: @crust;
+  font-family:
+    "CommitMono",
+    "UbuntuMono Nerd Font",
+    "Sarasa UI SC";
+  font-size: 12px;
+  /* min-height: 20px; */
+  color: @text;
+}
+
+window#waybar {
+  background-color: shade(@base, 0.9);
+  color: @text;
+}
+
+tooltip {
+  background-color: shade(@base, 0.9);
+  color: @text;
+}
+
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#mode,
+#workspaces,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+  color: @text;
+}
+
+#workspaces button {
+  color: @base;
+}

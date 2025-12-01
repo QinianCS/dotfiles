@@ -1,0 +1,27 @@
+[[plugin.deps]]
+use = "stelcodes/bunny"
+rev = "ea27f37"
+hash = "7956295208401cdbdf2b673b73437edd"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "c0ad8a3"
+hash = "a7ab702e1ef0c097defbc976ed34c186"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "c0ad8a3"
+hash = "d0ad0c1946b46a30c8489735fe8de41c"
+
+[[plugin.deps]]
+use = "AnirudhG07/rich-preview"
+rev = "de28f50"
+hash = "b9cd4027db110b4228889be32462f363"
+
+[[plugin.deps]]
+use = "josephschmitt/auto-layout"
+rev = "626a601"
+hash = "747a700c90fffc5b187a6094fd0661b0"
+
+[flavor]
+deps = []

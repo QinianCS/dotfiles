@@ -1,0 +1,787 @@
+prefer-no-csd
+output "DP-2" {
+    scale 1.5
+}
+output "HDMI-A-1" {
+    mode "2560x1440@74.780"
+    scale 1.0
+    off
+}
+hotkey-overlay {
+    skip-at-startup
+ // hide-not-bound
+}
+environment {
+    ELECTRON_OZONE_PLATFORM_HINT "wayland"
+    ELECTRON_OZONE_PLATFORM "wayland"
+    QT_QPA_PLATFORM "wayland;xcb"
+    QT_QPA_PLATFORMTHEME "qt6ct"
+    QT_AUTO_SCREEN_SCALE_FACTOR "0"
+    QT_SCALE_FACTOR_ROUNDING_POLICY "Floor"
+    QT_SCALE_FACTOR "1"
+    // DISPLAY ":0"
+    XDG_MENU_PREFIX "arch-"
+    QT_IM_MODULE "fcitx"
+    QT_IM_MODULES "wayland;fcitx;ibus"
+    //GTk_IM_MODULE "fcitx"
+    XMODIFIERS "@im=fcitx"
+    // XCURSOR_SIZE "24"
+    // XCURSOR_THEME "Bibata-Modern-Ice"
+    }
+cursor {
+    // xcursor-theme "BreezeX-RosePineDawn-Linux"
+    // xcursor-theme "BreezeX-RosePine-Linux"
+    xcursor-theme "Bibata-Modern-Ice"
+    // xcursor-theme "Bibata-Modern-Classic"
+    // xcursor-theme "Bibata_Spirit"
+    // xcursor-theme "Bibata_Ghost"
+    // xcursor-theme "Bibata_Tinted"
+    // xcursor-theme "Adwaita"
+    // xcursor-size 30
+    // xcursor-size 24
+}
+clipboard {
+ // disable-primary
+
+}
+workspace "main" {
+    open-on-output "DP-2"
+}
+workspace "side" {
+    // open-on-output "HDMI-A-1"
+}
+workspace "tray" {
+    // open-on-output "HDMI-A-1"
+}
+window-rule {
+    match is-floating=false
+    tiled-state true
+}
+window-rule {
+    // match app-id="mpv"
+    match app-id="qalculate-gtk"
+    match app-id="kitty" title="^qalc"
+    open-floating true
+}
+window-rule {
+    match app-id="audacious"
+    // match app-id="vlc"
+    default-column-width {
+        proportion 0.5
+    }
+    open-on-workspace "tray"
+    open-focused false
+}
+window-rule {
+    match app-id="org.kde.krusader" title="^Copying.*?Krusader$"
+    match app-id="org.kde.krusader" title="^Moving.*?Krusader$"
+    match app-id="org.kde.krusader" title="^Progress.*?Krusader$"
+    match app-id="org.kde.krusader" title="^Extract.*?Krusader$"
+    default-column-width {
+
+    }
+    open-focused false
+    default-floating-position x=32 y=32 relative-to="bottom-left"
+    open-floating false
+}
+window-rule {
+    match app-id="kitty"
+    match app-id="foot"
+    match app-id="krusader"
+    match app-id="com.mitchellh.ghostty"
+    match app-id="mihomo-party"
+    // open-on-output "HDMI-A-1"
+    open-floating false
+}
+window-rule {
+    match title="^Remove"
+    match app-id="org.gnome.Nautilus" title="^Open"
+    open-focused true
+}
+window-rule {
+    match app-id="firefox"
+    match app-id="mpv"
+    match app-id="librewolf"
+    open-focused true
+    open-on-workspace "main"
+}
+window-rule {
+    // match app-id="mpv"
+    // variable-refresh-rate true
+}
+window-rule {
+    match app-id="codium"
+}
+window-rule {
+    match app-id="goldendict"
+    open-on-workspace "main"
+    open-focused true
+}
+window-rule {
+    match app-id="sumatrapdf-prerel-64.exe"
+}
+/-layer-rule {
+    match namespace="waybar"
+    match at-startup=true
+    // block-out-from "screencast"
+    // block-out-from "screen-capture"
+    shadow {
+        // on
+        off
+        softness 40
+        spread 5
+        offset x=0 y=5
+        draw-behind-window true
+        color "#00000064"
+        inactive-color "#00000064"
+    }
+ // geometry-corner-radius 12
+}
+input {
+    keyboard {
+        xkb {
+            layout "us"
+        }
+        repeat-delay 500
+        repeat-rate 30
+    }
+    touchpad {
+        // off
+        tap
+        // dwt
+        // dwtp
+        // drag-lock
+        natural-scroll
+ // accel-speed 0.2
+        // accel-profile "flat"
+        // scroll-method "two-finger"
+        // disabled-on-external-mouse
+    }
+    mouse {
+        // off
+        // natural-scroll
+        // accel-speed 0.2
+ // accel-profile "flat"
+        // scroll-method "no-scroll"
+    }
+    trackpoint {
+ // off
+        // natural-scroll
+        // accel-speed 0.2
+        // accel-profile "flat"
+        // scroll-method "on-button-down"
+        // scroll-button 273
+        // middle-emulation
+
+    }
+}
+layout {
+    tab-indicator {
+        width 3
+        gap 0
+        active-color "#671117"
+        hide-when-single-tab
+    }
+    gaps 0
+    // gaps 10
+    center-focused-column "never"
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+    preset-window-heights {
+        proportion 0.33333
+        proportion 0.5
+        proportion 1.0
+    }
+    default-column-width {
+        // proportion 0.33333
+        proportion 0.5
+    }
+    focus-ring {
+        off
+        width 4
+    }
+    border {
+        off
+        width 1
+        active-color "#ffc87f"
+        inactive-color "#505050"
+        // Color of the border around windows that request your attention.
+        urgent-color "#9b0000"
+ // active-gradient from="#ffbb66" to="#ffc880" angle=45 relative-to="workspace-view"
+        // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
+    }
+    shadow {
+        on
+        // By default, the shadow draws only around its window, and not behind it.
+        // Uncomment this setting to make the shadow draw behind its window.
+        //
+        // Note that niri has no way of knowing about the CSD window corner
+        // radius. It has to assume that windows have square corners, leading to
+        // shadow artifacts inside the CSD rounded corners. This setting fixes
+        // those artifacts.
+        //
+        // However, instead you may want to set prefer-no-csd and/or
+        // geometry-corner-radius. Then, niri will know the corner radius and
+        // draw the shadow correctly, without having to draw it behind the
+        // window. These will also remove client-side shadows if the window
+        // draws any.
+        //
+        // draw-behind-window true
+        // You can change how shadows look. The values below are in logical
+        // pixels and match the CSS box-shadow properties.
+        // Softness controls the shadow blur radius.
+        softness 30
+        // softness 30
+        // Spread expands the shadow.
+        // spread 1
+        spread 5
+        // Offset moves the shadow relative to the window.
+        offset x=0 y=5
+        // You can also change the shadow color and opacity.
+        color "#0007"
+    }
+    struts {
+ // left 64
+        // right 64
+        // top 64
+        // bottom 64
+
+    }
+}
+spawn-at-startup "krusader"
+// spawn-at-startup "dunst"
+spawn-at-startup "mako"
+spawn-at-startup "keyd-application-mapper" "-d"
+spawn-at-startup "dash" "-c" "env GOLDENDICT_FORCE_WAYLAND=1 goldendict"
+// spawn-at-startup "goldendict"
+spawn-at-startup "librewolf"
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "swww-daemon"
+spawn-at-startup "dash" "-c" "tmux new -ds xw 'xwayland-satellite'"
+spawn-at-startup "bash" "-c" "~/n/scripts_/boot/tmux.sh"
+spawn-at-startup "bluetooth-autoconnect"
+spawn-at-startup "fcitx5" "-d"
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+//screenshot-path "/tmp/tmpniri.png"
+//screenshot-path null
+animations {
+    off
+ // slowdown 1.5
+}
+window-rule {
+    match app-id="^org\\.wezfurlong\\.wezterm$"
+    default-column-width {
+
+    }
+}
+window-rule {
+    // This app-id regular expression will work for both:
+    // - host Firefox (app-id is "firefox")
+    // - Flatpak Firefox (app-id is "org.mozilla.firefox")
+    match app-id="firefox$" title="^Picture-in-Picture$"
+    match app-id="librewolf$" title="^Picture-in-Picture$"
+    open-floating true
+ // prefer-no-csd
+}
+/-window-rule {
+match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+match app-id=r#"^org\.gnome\.World\.Secrets$"#
+block-out-from "screen-capture"
+// Use this instead if you want them visible on third-party screenshot tools.
+// block-out-from "screencast"
+}
+/-window-rule {
+geometry-corner-radius 12
+clip-to-geometry true
+}
+binds {
+    Alt+Tab {
+        focus-window-previous
+    }
+    Mod+Tab {
+        toggle-overview
+    }
+    Mod+Shift+Tab {
+        spawn "dash" "-c" "pkill rofi || rofi -show window"
+    }
+    Mod+Shift+Slash {
+        show-hotkey-overlay
+    }
+    Mod+r {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto footclient footclient"
+    }
+    Mod+x {
+        // spawn "dash" "-c" "kitten quick-access-terminal"
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto scrcpy"
+    }
+    Mod+Ctrl+T {
+        spawn "kitty"
+    }
+    Mod+G {
+        // spawn "dash" "-c" "~/n/scripts_/mp.sh"
+        // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto com.follow.clash flclash"
+        // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto sparkle sparkle"
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto mihomo-party clash-party"
+    }
+    Mod+1 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto librewolf librewolf"
+ // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto firefox firefox"
+    }
+    Mod+ctrl+2 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto yazi \"footclient -a yazi yazi\""
+    }
+    Mod+2 {
+        // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto yazi \"kitty --app-id=yazi yazi\""
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto org.kde.krusader krusader"
+    }
+    Mod+shift+2 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto helix.krusader"
+ // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto doublecmd doublecmd"
+    }
+    Mod+7 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto mpv mpv"
+    }
+    Mod+8 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto audacious audacious"
+    }
+    Mod+3 {
+        // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto \"app_id:GoldenDict-ng\" \"env GOLDENDICT_FORCE_WAYLAND=1 goldendict\""
+        // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto \"app_id:com/xiaoyifang/goldendict-ng.https://github.goldendict\" \"env GOLDENDICT_FORCE_WAYLAND=1 goldendict\""
+        // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto \"app_id:io.github.xiaoyifang.goldendict_ng\" \"env GOLDENDICT_FORCE_WAYLAND=1 goldendict\""
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto \"app_id:io.github.xiaoyifang.goldendict_ng\" goldendict"
+        // spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto \"app_id:com/xiaoyifang/goldendict-ng.https://github.goldendict\" \"goldendict\""
+    }
+    Mod+Ctrl+grave {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto dev.zed.Zed-Dev zeditor"
+    }
+    Mod+t {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto tmux \"~/n/scripts/wl/tmux.sh\""
+    }
+    Mod+grave {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto helix \"~/n/scripts/wl/helixfoot.sh\""
+    }
+    Mod+ctrl+c {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto etc \"~/n/scripts_/sudohelix.sh\""
+    }
+    Mod+shift+grave {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto codium \"codium --ozone-platform-hint=wayland --password-store=gnome-libsecret --gtk-version=3 --ignore-gpu-blocklist --enable-wayland-ime --enable-features=TouchpadOverscrollHistoryNavigation,WaylandWindowDecorations --ozone-platform=wayland --wayland-per-window-scaling --wayland-text-input-version=3\""
+    }
+    Mod+alt+e {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto org.gnome.nautilus nautilus"
+    }
+    Mod+Shift+X {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto fsearch fsearch"
+    }
+    Mod+4 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto com.github.johnfactotum.Foliate foliate"
+    }
+    Mod+5 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto calibre-ebook-viewer ebook-viewer"
+    }
+    Mod+F1 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto sumatrapdf-prerel-64.exe ~/n/scripts_/sumatrapdf.sh"
+    }
+    Mod+F2 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto KOReader koreader"
+    }
+    Mod+F3 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto scrcpy"
+    }
+    //obs
+    Mod+0 {
+        spawn "dash" "-c" "~/n/scripts/wl/wlrctl.sh goto com.obsproject.Studio obs"
+    }
+    Mod+Shift+F10 {
+        spawn "dash" "-c" "obs-waykey -t toggle-record -w tOAh4peC761Luxs6"
+    }
+    Mod+Shift+F11 {
+        spawn "dash" "-c" "~/n/scripts_/screen-record_wf-recorder_hdmi.sh"
+    }
+    Mod+Shift+F12 {
+        spawn "dash" "-c" "~/n/scripts_/screen-record_wf-recorder.sh"
+    }
+    //screenshot
+    Super+Shift+S {
+        spawn "dash" "-c" "grim -g \"$(slurp $SLURP_ARGS)\" \"/tmp/tmpgrim.png\" && ~/.local/share/uv/tools/rapidocr-onnxruntime/bin/python3 -c \"from rapidocr_onnxruntime import RapidOCR; print('\\n'.join([res[1] for res in RapidOCR()('/tmp/tmpgrim.png')[0]]))\" | wl-copy"
+    }
+    Super+Shift+T {
+        spawn "dash" "-c" "grim -g \"$(slurp $SLURP_ARGS)\" \"/tmp/tmpgrim.png\" && tesseract -l eng \"/tmp/tmpgrim.png\" - | wl-copy && rm \"/tmp/tmpgrim.png\""
+    }
+    Print {
+        screenshot
+    }
+    Ctrl+Print {
+        screenshot-screen
+    }
+    Alt+Print {
+        screenshot-window
+    }
+    Shift+Print {
+        spawn "dash" "-c" "niri msg action screenshot-window && sleep 0.1 && wl-paste|satty -f -"
+    }
+    // launcher/windows
+    Mod+ctrl+Space {
+        spawn "dash" "-c" "pkill rofi || rofi -show calc -modi calc -no-show-match -no-sort"
+    }
+    Mod+alt+Space {
+        spawn "dash" "-c" "pkill qalculate-gtk || qalculate-gtk"
+    }
+    Alt+Space {
+        // spawn "dash" "-c" "pkill rofi || rofi -show combi -modes combi -combi-modes 'drun,run'"
+        spawn "dash" "-c" "pkill fuzzel || fuzzel  --list-executables-in-path"
+    }
+    // web search
+    Mod+S {
+        spawn "bash" "-c" "~/n/scripts/search/ddg.sh"
+    }
+    Mod+ctrl+w {
+        spawn "bash" "-c" "~/n/scripts/search/wikipedia.sh"
+    }
+    Mod+ctrl+q {
+        spawn "bash" "-c" "~/n/scripts/search/wiktionary.sh"
+    }
+    Mod+ctrl+g {
+        spawn "bash" "-c" "~/n/scripts/search/google.sh"
+    }
+    // media & volume control
+    Mod+F12 allow-when-locked=true {
+        spawn "dash" "-c" "wpctl set-volume @DEFAULT_AUDIO_SINK@ 7%+"
+    }
+    Mod+F11 allow-when-locked=true {
+        spawn "dash" "-c" "wpctl set-volume @DEFAULT_AUDIO_SINK@ 7%-"
+    }
+    Mod+ctrl+F11 allow-when-locked=true {
+        spawn "playerctl" "previous"
+    }
+    Mod+ctrl+F12 allow-when-locked=true {
+        spawn "playerctl" "next"
+    }
+    XF86AudioPause allow-when-locked=true {
+        spawn "playerctl" "play-pause"
+    }
+    Mod+F8 allow-when-locked=true {
+        spawn "playerctl" "play-pause"
+    }
+    Mod+F9 allow-when-locked=true {
+        // spawn "playerctl" "play-pause"
+        spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"
+    }
+    XF86AudioRaiseVolume allow-when-locked=true {
+        spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.07+"
+    }
+    XF86AudioLowerVolume allow-when-locked=true {
+        spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.07-"
+    }
+    XF86AudioMute allow-when-locked=true {
+        spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"
+    }
+    XF86AudioMicMute allow-when-locked=true {
+        spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"
+    }
+    // misc
+    Mod+W {
+    // Mod+Shift+W {
+        spawn "dash" "-c" "pkill waybar || waybar"
+    }
+    Mod+C {
+        spawn "dash" "-c" "env GOLDENDICT_FORCE_WAYLAND=1 goldendict \"$(wl-paste)\""
+    }
+    Mod+Shift+Comma {
+        spawn "dash" "-c" "pkill rofimoji || rofimoji"
+    }
+    Mod+Shift+Period {
+        spawn "dash" "-c" "pkill rofi || rofi -modi emoji -show emoji"
+    }
+    Mod+Ctrl+a {
+        spawn "dash" "-c" "pkill pavucontrol || pavucontrol"
+    }
+    Mod+Q {
+        close-window
+    }
+    Mod+Left {
+        focus-column-left
+    }
+    Mod+Down {
+        focus-window-down
+    }
+    Mod+Up {
+        focus-window-up
+    }
+    Mod+Right {
+        focus-column-right
+    }
+    Mod+N {
+        focus-column-left
+    }
+    Mod+E {
+        focus-window-down
+    }
+    Mod+U {
+        focus-window-up
+    }
+    Mod+I {
+        focus-column-right
+    }
+    Mod+Ctrl+Left {
+        move-column-left
+    }
+    Mod+Ctrl+Down {
+        move-window-down
+    }
+    Mod+Ctrl+Up {
+        move-window-up
+    }
+    Mod+Ctrl+Right {
+        move-column-right
+    }
+    Mod+Ctrl+n {
+        move-column-left
+    }
+    Mod+Ctrl+e {
+        move-window-down
+    }
+    Mod+Ctrl+u {
+        move-window-up
+    }
+    Mod+Ctrl+i {
+        move-column-right
+    }
+    Mod+Home {
+        focus-column-first
+    }
+    Mod+End {
+        focus-column-last
+    }
+    Mod+L {
+        focus-column-first
+    }
+    Mod+Y {
+        focus-column-last
+    }
+    Mod+Ctrl+Home {
+        move-column-to-first
+    }
+    Mod+Ctrl+End {
+        move-column-to-last
+    }
+    Mod+Ctrl+L {
+        move-column-to-first
+    }
+    Mod+Ctrl+Y {
+        move-column-to-last
+    }
+    Mod+Shift+Left {
+        focus-monitor-left
+    }
+    Mod+Shift+Down {
+        focus-monitor-down
+    }
+    Mod+Shift+Up {
+        focus-monitor-up
+    }
+    Mod+Shift+Right {
+        focus-monitor-right
+    }
+    Mod+Shift+n {
+        focus-monitor-left
+    }
+    Mod+Shift+e {
+        focus-monitor-down
+    }
+    Mod+Shift+u {
+        focus-monitor-up
+    }
+    Mod+Shift+i {
+        focus-monitor-right
+    }
+    Mod+Shift+Ctrl+Left {
+        move-column-to-monitor-left
+    }
+    Mod+Shift+Ctrl+Down {
+        move-column-to-monitor-down
+    }
+    Mod+Shift+Ctrl+Up {
+        move-column-to-monitor-up
+    }
+    Mod+Shift+Ctrl+Right {
+        move-column-to-monitor-right
+    }
+    Mod+Shift+Ctrl+n {
+        move-column-to-monitor-left
+    }
+    Mod+Shift+Ctrl+e {
+        move-column-to-monitor-down
+    }
+    Mod+Shift+Ctrl+u {
+        move-column-to-monitor-up
+    }
+    Mod+Shift+Ctrl+i {
+        move-column-to-monitor-right
+    }
+    Mod+Page_Down {
+        focus-workspace-down
+    }
+    Mod+Page_Up {
+        focus-workspace-up
+    }
+    Mod+K {
+        focus-workspace-down
+    }
+    Mod+J {
+        focus-workspace-up
+    }
+    Mod+Ctrl+Page_Down {
+        move-column-to-workspace-down
+    }
+    Mod+Ctrl+Page_Up {
+        move-column-to-workspace-up
+    }
+    Mod+Ctrl+k {
+        move-column-to-workspace-down
+    }
+    Mod+Ctrl+j {
+        move-column-to-workspace-up
+    }
+    Mod+Shift+Page_Down {
+        move-workspace-down
+    }
+    Mod+Shift+Page_Up {
+        move-workspace-up
+    }
+    Mod+Shift+k {
+        move-workspace-down
+    }
+    Mod+Shift+j {
+        move-workspace-up
+    }
+    Mod+WheelScrollDown cooldown-ms=150 {
+        focus-workspace-down
+    }
+    Mod+WheelScrollUp cooldown-ms=150 {
+        focus-workspace-up
+    }
+    Mod+Ctrl+WheelScrollDown cooldown-ms=150 {
+        move-column-to-workspace-down
+    }
+    Mod+Ctrl+WheelScrollUp cooldown-ms=150 {
+        move-column-to-workspace-up
+    }
+    Mod+WheelScrollRight {
+        focus-column-right
+    }
+    Mod+WheelScrollLeft {
+        focus-column-left
+    }
+    Mod+Ctrl+WheelScrollRight {
+        move-column-right
+    }
+    Mod+Ctrl+WheelScrollLeft {
+        move-column-left
+    }
+    Mod+Shift+WheelScrollDown {
+        focus-column-right
+    }
+    Mod+Shift+WheelScrollUp {
+        focus-column-left
+    }
+    Mod+Ctrl+Shift+WheelScrollDown {
+        move-column-right
+    }
+    Mod+Ctrl+Shift+WheelScrollUp {
+        move-column-left
+    }
+    Mod+BracketLeft {
+        consume-or-expel-window-left
+    }
+    Mod+BracketRight {
+        consume-or-expel-window-right
+    }
+    Mod+Comma {
+        consume-window-into-column
+    }
+    Mod+Period {
+        expel-window-from-column
+    }
+    Mod+ctrl+R {
+        switch-preset-column-width
+    }
+    Mod+Shift+R {
+        switch-preset-window-height
+    }
+    Mod+Ctrl+shift+R {
+        reset-window-height
+    }
+    Mod+F {
+        maximize-column
+    }
+    Mod+Shift+F {
+        fullscreen-window
+    }
+    Mod+Ctrl+SHIFT+F {
+        toggle-windowed-fullscreen
+    }
+    Mod+Ctrl+F {
+        expand-column-to-available-width
+    }
+    Mod+shift+C {
+        center-column
+    }
+    Mod+shift+D {
+        center-column
+    }
+    Mod+Minus {
+        set-column-width "-10%"
+    }
+    Mod+Equal {
+        set-column-width "+10%"
+    }
+    Mod+Shift+Minus {
+        set-window-height "-10%"
+    }
+    Mod+Shift+Equal {
+        set-window-height "+10%"
+    }
+    Mod+ctrl+V {
+        toggle-window-floating
+    }
+    Mod+Shift+V {
+        switch-focus-between-floating-and-tiling
+    }
+    Mod+Shift+W {
+        toggle-column-tabbed-display
+    }
+    // Actions to switch layouts.
+    // Note: if you uncomment these, make sure you do NOT have
+    // a matching layout switch hotkey configured in xkb options above.
+    // Having both at once on the same hotkey will break the switching,
+    // since it will switch twice upon pressing the hotkey (once by xkb, once by niri).
+    // Mod+Space       { switch-layout "next"; }
+    // Mod+Shift+Space { switch-layout "prev"; }
+    // Print { screenshot; }
+    // Ctrl+Print { screenshot-screen; }
+    // Alt+Print { screenshot-window; }
+    // Applications such as remote-desktop clients and software KVM switches may
+    // request that niri stops processing the keyboard shortcuts defined here
+    // so they may, for example, forward the key presses as-is to a remote machine.
+    // It's a good idea to bind an escape hatch to toggle the inhibitor,
+    // so a buggy application can't hold your session hostage.
+    //
+    // The allow-inhibiting=false property can be applied to other binds as well,
+    // which ensures niri always processes them, even when an inhibitor is active.
+    Mod+Escape allow-inhibiting=false {
+        toggle-keyboard-shortcuts-inhibit
+    }
+    Ctrl+Alt+Delete {
+        quit
+    }
+    Mod+ctrl+P {
+        power-off-monitors
+    }
+    Mod+ctrl+alt+l {
+        spawn "swaylock"
+    }
+}
+

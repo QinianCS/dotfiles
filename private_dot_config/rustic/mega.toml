@@ -1,0 +1,28 @@
+[repository]
+repository = "rclone:mega:/codeberg"
+password-file = "/home/t/n/scripts_/passwdmega.txt"
+
+# [forget]
+# keep-daily = 8
+# keep-weekly = 5
+# keep-monthly = 3
+# keep-yearly = 1
+
+[backup]
+label = "home"
+
+
+[[backup.snapshots]]
+sources = [
+  "/home/t",
+  "/etc",
+  "/root",
+  "/data/sync/_android",
+  "/data/sync/cloud",
+  "/data/sync/koreader",
+  # "/data/sync/linux",
+  "/data/sync/neobackup",
+  "/data/sync/persist",
+  "/data/sync/Pictures",
+  "/data/sync/zoftware",
+]

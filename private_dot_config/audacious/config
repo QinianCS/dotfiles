@@ -1,0 +1,16 @@
+
+[audacious]
+show_numbers_in_pl=TRUE
+
+[audgui]
+no_confirm_playlist_delete=TRUE
+
+[pipewire]
+volume_left=100
+volume_right=100
+
+[qtui]
+column_widths=25,61,482,175,50,571,175,25,100,54,75,792,275,275,75,275,175,75
+player_height=1426
+player_width=1280
+playlist_columns=playing number title album artist queued length path

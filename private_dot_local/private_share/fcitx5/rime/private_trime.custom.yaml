@@ -1,0 +1,4 @@
+patch:
+  "style/candidate_font": [Yuniversus.ttf,consola.ttf,GentiumBookPlus-Regular.ttf,simsun.ttc,simsunb.ttf,simsunExtG.ttf,TH-Times.ttc,TH-Tshyn-P0.ttf,TH-Tshyn-P1.ttf,TH-Tshyn-P2.ttf,TH-Tshyn-P16.ttf,KaiXinSongA.ttf,KaiXinSongB.ttf]
+  "style/comment_font:": [Yuniversus.ttf,consola.ttf,GentiumBookPlus-Regular.ttf,simsun.ttc,simsunb.ttf,simsunExtG.ttf,TH-Times.ttc,TH-Tshyn-P0.ttf,TH-Tshyn-P1.ttf,TH-Tshyn-P2.ttf,TH-Tshyn-P16.ttf,KaiXinSongA.ttf,KaiXinSongB.ttf]
+  "style/label_font:": [Yuniversus.ttf,consola.ttf,GentiumBookPlus-Regular.ttf,simsun.ttc,simsunb.ttf,simsunExtG.ttf,TH-Times.ttc,TH-Tshyn-P0.ttf,TH-Tshyn-P1.ttf,TH-Tshyn-P2.ttf,TH-Tshyn-P16.ttf,KaiXinSongA.ttf,KaiXinSongB.ttf]

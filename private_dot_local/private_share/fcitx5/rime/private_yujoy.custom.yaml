@@ -1,0 +1,57 @@
+# 功能開關一鍵配置
+patch:
+  switches/@4/reset: 2 # [無註解, 二重註解, 多重註解]
+  switches/@2/reset: 1 
+  reverse_lookup/dictionary: moran.extended_custom
+  reverse_lookup/prism: moran
+  reverse_lookup/tips: 〔魔然反查〕
+  reverse_lookup/preedit_format:
+  translator/dictionary: yujoy
+  
+  punctuator/import_preset: symbols
+  schema/dependencies+: 
+    - moran.extended_custom
+    - moran
+    - yujoy_custom
+  speller/max_code_length: 50
+  style/font_face: "Yuniversus, Iosevka Term, Gentium Book Plus, Fsung-p, Fsung-1, Fsung-2, Fsung-3, SimSun, SimSun-ExtB, SimSun-ExtG, ZhongHuaSongPlane00, ZhongHuaSongPlane02, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, Fsung-F, Fsung-X"
+  key_binder/import_preset: default
+  "key_binder/bindings":
+    - { when: composing, accept: comma, send: Page_Up }
+    - { when: composing, accept: period, send: Page_Down }
+    - { when: composing, accept: "Control+period", toggle: ascii_punct }
+    - { when: composing, accept: "Control+Shift+period", toggle: ascii_punct }
+    - { when: composing, accept: "Control+Shift+J", toggle: simplification }
+    - { when: composing, accept: "Control+Shift+F", toggle: traditionalization }
+    - {
+        when: composing,
+        accept: "Control+Shift+M",
+        toggle: yuhao_charset_prioritizer_common,
+      } # 常用字優先
+    - {
+        when: composing,
+        accept: "Control+Shift+O",
+        toggle: yuhao_charset_filter_common,
+      } # 常用詞過濾
+    - { when: composing, accept: "0", toggle: yuhao_charset_filter_common } # 常用詞過濾
+    # - { when: composing, accept: "/", toggle: yuhao_chaifen.off } # 拆分
+    - {
+        when: composing,
+        accept: "Control+Shift+D",
+        toggle: yuhao_single_char_only_for_full_code,
+      } # 全码出单
+    - {
+        when: composing,
+        accept: "Control+Shift+H",
+        toggle: yuhao_postpone_full_code,
+      } # 全碼後置
+    - {
+        when: composing,
+        accept: "Control+Shift+Y",
+        toggle: yuhao_autocompletion_filter,
+      } # 輸入預測
+    # - { when: composing, accept: semicolon, send: 2 } # 分号次选
+    - { when: composing, accept: apostrophe, send: 3 } # 引号三选
+    - { when: composing, accept: Tab, send: 2 } # 製表符次选
+    - { when: composing, accept: minus, send: Page_Up } # 減號上翻頁
+    - { when: composing, accept: equal, send: Page_Down } # 等號下翻頁

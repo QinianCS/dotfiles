@@ -1,0 +1,6 @@
+# Rime table
+#@/db_name	user.custom.dict
+#@/db_type	tabledb
+#@/rime_version	1.11.2
+#@/tick	1
+宇	yu[by	2

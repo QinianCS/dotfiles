@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Console RAR manual
+Exec=env WINEPREFIX="/home/t/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\WinRAR\\\\Console\\ RAR\\ manual.lnk
+Type=Application
+StartupNotify=true
+Comment=Process RAR, ZIP and other archive formats
+Path=/home/t/.wine/dosdevices/c:/users/t/Desktop
+Icon=F78B_Rar.0
+StartupWMClass=rar.txt

@@ -1,0 +1,10 @@
+
+[mega]
+inherit = "exclude"
+repository = "rclone:mega:/codeberg"
+password-file = "/home/t/o/passwd.txt"
+
+[mega.backup]
+verbose = true
+label = "home"
+sources = ["/home/t", "/etc", "/d/sync/_android", "/d/sync/cloud", "/d/sync/koreader", "/d/sync/linux", "/d/sync/neobackup", "/d/sync/persist", "/d/sync/Pictures", "/d/sync/zoftware"]

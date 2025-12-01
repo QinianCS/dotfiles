@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Readest
+Exec=/home/t/appimages/Readest_0.9.28_amd64.AppImage %u
+Terminal=false
+NoDisplay=true
+MimeType=x-scheme-handler/readest;x-scheme-handler/readest
