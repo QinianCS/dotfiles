@@ -1,0 +1,26 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export EDITOR:helix
+SETUVAR --export NO_PROXY:127\x2e0\x2e0\x2e1\x20localhost
+SETUVAR --export XDG_CACHE_HOME:/home/t/\x2ecache
+SETUVAR --export XDG_CONFIG_HOME:/home/t/\x2econfig
+SETUVAR --export XDG_DATA_HOME:/home/t/\x2elocal/share
+SETUVAR --export XDG_DESKTOP_DIR:/home/t/\x2elocal/Desktop
+SETUVAR --export XDG_DOCUMENTS_DIR:/home/t/\x2elocal/Documents
+SETUVAR --export XDG_DOWNLOAD_DIR:/home/t/\x2elocal/Downloads
+SETUVAR --export XDG_MUSIC_DIR:/home/t/\x2elocal/Music
+SETUVAR --export XDG_PICTURES_DIR:/home/t/\x2elocal/Pictures
+SETUVAR --export XDG_PUBLICSHARE_DIR:/home/t/\x2elocal/Public
+SETUVAR --export XDG_STATE_HOME:/home/t/\x2elocal/state
+SETUVAR --export XDG_TEMPLATES_DIR:/home/t/\x2elocal/Templates
+SETUVAR --export XDG_VIDEOS_DIR:/home/t/\x2elocal/Videos
+SETUVAR __fish_initialized:4300
+SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Latte\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ecatppuccin/fish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR --export all_proxy:
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_user_paths:/home/t/\x2econfig/zide/bin\x1e/home/t/go/bin\x1e/home/t/\x2ecache/\x2ebun/bin\x1e/home/t/\x2ecargo/bin\x1e/home/t/appimages\x1e/home/t/\x2elocal/bin\x1e/home/t/\x2elmstudio/bin\x1e/home/t/\x2ebun/bin
+SETUVAR --export http_proxy:
+SETUVAR --export https_proxy:

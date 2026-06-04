@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xbel>
+<xbel>
+ <bookmark href="file:///home/t/.local/share/fcitx5/rime" icon="">
+  <title>rime</title>
+ </bookmark>
+ <bookmark href="file:///home/t/Downloads" icon="">
+  <title>downloads</title>
+ </bookmark>
+ <bookmark href="file:///home/t/cache/_linking/_linux" icon="">
+  <title>linux</title>
+ </bookmark>
+ <bookmark href="file:///home/t/Downloads/small" icon="">
+  <title>small</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.config" icon="">
+  <title>config</title>
+ </bookmark>
+ <bookmark href="file:///j" icon="">
+  <title>j</title>
+ </bookmark>
+ <bookmark href="file:///j/j/musica classica extracted" icon="">
+  <title>musica</title>
+ </bookmark>
+ <bookmark href="file:///home/t/own/git/notes" icon="">
+  <title>notes</title>
+ </bookmark>
+ <bookmark href="file:///etc" icon="">
+  <title>etc</title>
+ </bookmark>
+ <bookmark href="file:///home/t/sync" icon="">
+  <title>sync</title>
+ </bookmark>
+ <bookmark href="file:///home/t/cache/_fonts" icon="">
+  <title>fonts</title>
+ </bookmark>
+ <bookmark href="file:///home/t/appimages" icon="">
+  <title>appimages</title>
+ </bookmark>
+ <bookmark href="file:///home/t/.local" icon="">
+  <title>local</title>
+ </bookmark>
+ <bookmark href="file:///home/t/o" icon="">
+  <title>o</title>
+ </bookmark>
+ <bookmark href="file:///home/t/gitclones" icon="">
+  <title>gitclones</title>
+ </bookmark>
+ <bookmark href="file:///home/t/sync/koreader" icon="">
+  <title>koreader</title>
+ </bookmark>
+ <bookmark href="file:///d/Games" icon="">
+  <title>games</title>
+ </bookmark>
+ <bookmark href="file:///" icon="">
+  <title>/</title>
+ </bookmark>
+</xbel>

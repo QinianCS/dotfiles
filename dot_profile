@@ -1,0 +1,7 @@
+# GTK_IM_MODULE=fcitx
+# QT_IM_MODULE=fcitx
+XMODIFIERS="@im=fcitx"
+#PATH="/home/t/.cargo/bin:$PATH:/home/t/appimages"
+
+# Added by LM Studio CLI tool (lms)
+#export PATH="$PATH:/home/t/.lmstudio/bin"

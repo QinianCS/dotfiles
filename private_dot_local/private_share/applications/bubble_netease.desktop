@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=bubblejail run netease
+Name=netease bubble
+Type=Application
+

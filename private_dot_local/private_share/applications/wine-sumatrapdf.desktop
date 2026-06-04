@@ -1,0 +1,6 @@
+[Desktop Entry]
+NoDisplay=0
+Exec=bash /home/t/n/scripts_/sumatrapdf.sh
+MimeType=application/pdf;application/djvu
+Name=SumatraPDF
+Type=Application
