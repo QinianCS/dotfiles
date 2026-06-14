@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Yi Xian: The Cultivation Card Game
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1948800
+Icon=steam_icon_1948800
+Terminal=false
+Type=Application
+Categories=Game;

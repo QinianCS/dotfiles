@@ -1,0 +1,31 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Fri Mar  7 11:36:53 2025"
+  rime_version: 1.13.1
+patch:
+  ascii_composer:
+    switch_key: {Shift_L: commit_code, Shift_R: commit_code}
+  "key_binder/bindings/+":
+    - {accept: comma, send: Page_Up, when: composing}
+    - {accept: period, send: Page_Down, when: composing}
+    - {accept: "Control+w", send: "Control+BackSpace", when: composing}
+  "menu/page_size": 9
+  schema_list:
+    - {schema: moran}
+    - {schema: moran_sentence}
+    - {schema: yuming}
+    # - {schema: radical_pinyin}
+    # - {schema: yujoy}
+    # - {schema: yujoy_fluency}
+  "switcher/hotkeys":
+    - "Control+grave"
+  "switcher/save_options/+":
+    - ascii_mode
+    - embeded_cands
+    - full.word
+    - full.char
+    - full.off
+    - charset.all
+    - charset.freqly

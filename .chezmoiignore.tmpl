@@ -1,0 +1,31 @@
+key.txt.age
+
+README.md
+
+{{ if eq .hosttype "termux" | not}}
+
+.config/fish/conf.d/termux.fish
+{{ end }}
+
+
+{{ if eq .hosttype "desktop" "laptop" | not }}
+**
+!.config
+!.config/fish
+!.config/fish/config.fish
+!.config/fish/conf.d
+!.config/fish/conf.d/fix-ssh.fish
+!.config/tmux
+!.config/tmux/tmux.conf
+!.ssh
+!.ssh/authorized_keys
+
+!.config/helix
+!.config/helix/config.toml
+!.config/helix/languages.toml
+
+{{ if eq .hosttype "termux" }}
+!.config/fish/conf.d/termux.fish
+{{ end }}
+
+{{ end }}
