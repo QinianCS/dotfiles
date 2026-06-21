@@ -8,14 +8,9 @@
 * {
   background-color: @crust;
   font-family:
-    /* "CommitMono", */
-    /* "UbuntuMono Nerd Font", */
-    /* "Sarasa UI SC"; */
-    /* "Segoe UI", */
     "Sarasa Fixed SC",
     "UbuntuMono Nerd Font";
   font-size: 13px;
-  /* min-height: 20px; */
   color: @text;
 }
 

@@ -68,7 +68,7 @@
     },
   },
   "editor.wordWrap": "on",
-  "editor.fontFamily": "\"UbuntuMono Nerd Font\",\"Sarasa Term SC\", FSung-p, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X",
+  "editor.fontFamily": "\"CommitMono Nerd Font\",\"Sarasa Term SC\", FSung-p, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X",
   "editor.largeFileOptimizations": false,
   "editor.fontLigatures": true,
   "editor.lineNumbers": "relative",
@@ -237,6 +237,11 @@
       "env": {},
     },
   },
-  "workbench.activityBar.location": "bottom",
   "workbench.colorTheme": "Nordfox",
+  "terminal.integrated.commandsToSkipShell": [
+    "kilo-code.new.agentManagerOpen",
+    "kilo-code.new.agentManager.showTerminal",
+  ],
+  "kilo-code.new.agentWorkStyle": "unset",
+  "workbench.activityBar.location": "top",
 }

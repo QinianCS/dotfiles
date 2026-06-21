@@ -24,7 +24,7 @@ Name=Default
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-custom
+DefaultIM=rime
 
 [Groups/1/Items/0]
 # Name
