@@ -2,7 +2,7 @@
 Type=Application
 Name=Wine Installer
 MimeType=application/x-wine-extension-msp;
-Exec=env "WINEPREFIX=/home/t/.wine" wine start /ProgIDOpen "Msi.Patch" %f
+Exec=env "WINEPREFIX=/home/t/.var/app/com.usebottles.bottles/data/bottles/bottles/g1/prefix" wine start /ProgIDOpen "Msi.Patch" %f
 NoDisplay=true
 StartupNotify=true
 Icon=D23E_msiexec.0

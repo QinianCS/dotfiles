@@ -2,7 +2,7 @@
 Type=Application
 Name=wscript
 MimeType=text/vbscript;
-Exec=env "WINEPREFIX=/home/t/.wine" wine start /ProgIDOpen "VBSFile" %f
+Exec=env "WINEPREFIX=/home/t/.var/app/com.usebottles.bottles/data/bottles/bottles/g1/prefix" wine start /ProgIDOpen "VBSFile" %f
 NoDisplay=true
 StartupNotify=true
 Icon=2905_wscript.0

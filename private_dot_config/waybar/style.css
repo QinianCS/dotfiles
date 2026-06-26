@@ -8,7 +8,8 @@
 * {
   background-color: @crust;
   font-family:
-    "Sarasa Fixed SC",
+    /* "CommitMono Nerd Font", */
+    "Sarasa Term SC",
     "UbuntuMono Nerd Font";
   font-size: 13px;
   color: @text;
