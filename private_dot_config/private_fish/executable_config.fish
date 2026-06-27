@@ -17,16 +17,22 @@
 # sync x11 clipboard
 # Set proxy
 function fish_proxy
+    set -gx HTTP_PROXY "http://127.0.0.1:7890"
     set -gx http_proxy "http://127.0.0.1:7890"
+    set -gx HTTPS_PROXY "http://127.0.0.1:7890"
     set -gx https_proxy "http://127.0.0.1:7890"
+    set -gx ALL_PROXY "socks5://127.0.0.1:7890"
     set -gx all_proxy "socks5://127.0.0.1:7890"
     echo "✅ Proxy started"
 end
 
 # Unset proxy
 function fish_unproxy
+    set -e HTTP_PROXY
     set -e http_proxy
+    set -e HTTPS_PROXY
     set -e https_proxy
+    set -e ALL_PROXY
     set -e all_proxy
     echo "❌ Proxy stopped"
 end
