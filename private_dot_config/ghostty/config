@@ -45,7 +45,7 @@ confirm-close-surface = false
 # # which is explained in the docs for that config option.
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
-font-family = CommitMono Nerd Font
+# font-family = CommitMono Nerd Font
 #font-family = JetBrains Mono
 #font-family = JetBrainsMono NF
 # font-family = UbuntuMonoNerd Font
@@ -53,17 +53,62 @@ font-family = CommitMono Nerd Font
 # font-family = MesloLGLDZ Nerd Font
 # font-family = courier
 # font-family = Inconsolata
-#font-family = Iosevka Term Curly Slab
+font-family = Iosevka Term Curly Slab
 # font-family = Sarasa Term SC
 # font-size = 10
-# theme = Gruvbox Light
+theme = Ultra Dark
+cursor-style = block
+# Black Metal
+# Black Metal (Bathory)
+# Black Metal (Burzum)
+# Black Metal (Dark Funeral)
+# Black Metal (Gorgoroth)
+# Black Metal (Immortal)
+# Black Metal (Khold)
+# Black Metal (Marduk)
+# Black Metal (Mayhem)
+# Black Metal (Nile)
+# Black Metal (Venom)
+# Builtin Dark
+# Builtin Pastel Dark
+# Builtin Tango Dark
+# CGA
+# Dark Pastel
+# Detuned
+# ENCOM
+# Fahrenheit
+# Firefly Traditional
+# Homebrew
+# Hurtado
+# IBM 5153 CGA (Black)
+# IR Black
+# iTerm2 Dark Background
+# iTerm2 Default
+# iTerm2 Pastel Dark Background
+# iTerm2 Tango Dark
+# Kitty Default
+# Liquid Carbon Transparent
+# Mathias
+# Modus Vivendi
+# Night Lion V1
+# Paul Millr
+# Peppermint
+# Phala Green Dark
+# Pro
+# Retro
+# Symfonic
+# Synthwave
+# Tomorrow Night Bright
+# Ultra Dark
+# Vibrant Ink
+# Wez
 # theme = Melange Dark
 # theme = Abernathy
 # theme = Modus Operandi
 # theme = Aardvark Blue
 gtk-single-instance = true
 # gtk-single-instance = false
-shell-integration-features = sudo
+shell-integration-features = no-cursor,sudo
 quit-after-last-window-closed=false
 #initial-window=false
 # keybind = global:cmd+grave_accent=toggle_quick_terminal

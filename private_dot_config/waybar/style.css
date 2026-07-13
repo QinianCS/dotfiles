@@ -9,6 +9,10 @@
   background-color: @crust;
   font-family:
     /* "CommitMono Nerd Font", */
+      /* "Ubuntu Sans Mono", */
+      "UbuntuMono Nerd Font",
+    "Iosevka Term Curly Slab",
+    /* "Alibaba PuHuiTi 3.0", */
     "Sarasa Term SC",
     "UbuntuMono Nerd Font";
   font-size: 13px;
