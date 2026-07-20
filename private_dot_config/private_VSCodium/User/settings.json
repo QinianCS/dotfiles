@@ -68,7 +68,7 @@
     },
   },
   "editor.wordWrap": "on",
-  "editor.fontFamily": "\"CommitMono Nerd Font\",\"Sarasa Term SC\", FSung-p, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X",
+  "editor.fontFamily": "monospace",
   "editor.largeFileOptimizations": false,
   "editor.fontLigatures": true,
   "editor.lineNumbers": "relative",

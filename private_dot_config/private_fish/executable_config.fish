@@ -37,7 +37,7 @@ function fish_unproxy
     echo "❌ Proxy stopped"
 end
 
-fish_proxy
+# fish_proxy
 
 alias tl="tmux ls"
 alias tn="tmux new -s"
