@@ -165,7 +165,7 @@
   "window.menuBarVisibility": "compact",
   // telemetry
   "extensions.autoCheckUpdates": false,
-  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.autoUpdate": "on",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.feedback.enabled": false,
