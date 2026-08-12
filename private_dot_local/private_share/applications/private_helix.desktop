@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=/usr/bin/foot -a helix-xdg -e helix %U
+Exec=/usr/bin/foot -a helix-xdg -e helix %F
 Name=helix
 Type=Application
 Icon=helix

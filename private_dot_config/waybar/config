@@ -170,8 +170,8 @@
     "max-length": 20
   },
   "custom/gpu-usage": {
-    "exec": "awk '{printf \"%.0f\", $1/1000000}' /sys/class/drm/card1/device/hwmon/hwmon2/power1_average",
-    "format": " {}W ",
+    "exec": "awk 'NR==1{p=$1} NR==2{t=$1} END{printf \"%.0fW %.0fC\", p/1000000, t/1000}' /sys/class/drm/card1/device/hwmon/hwmon*/power1_average /sys/class/drm/card1/device/hwmon/hwmon*/temp2_input",
+    "format": " {} ",
     // "exec": "cat /sys/class/drm/card1/device/gpu_busy_percent",
     // "format": " {}% ",
     "return-type": "",
